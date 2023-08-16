@@ -1,0 +1,71 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+/* @font-face {
+	font-family: abe;
+	src: url("");
+	src: url(../ABeeZee/ABeeZee-Regular.ttf);
+} */
+@font-face {
+	font-family: istok;
+  src: url(assets/Istok_Web/IstokWeb-Bold.ttf);
+	src: url(assets/Istok_Web/IstokWeb-BoldItalic.ttf);
+  src: url(assets/Istok_Web/IstokWeb-Italic.ttf);
+	src: url(assets/Istok_Web/IstokWeb-Regular.ttf);
+}
+
+@font-face {
+	font-family: inter;
+	src: url(assets/Inter/static/Inter-Black.ttf);
+  src: url(assets/Inter/static/Inter-Bold.ttf);
+  src: url(assets/Inter/static/Inter-ExtraBold.ttf);
+  src: url(assets/Inter/static/Inter-ExtraLight.ttf);
+  src: url(assets/Inter/static/Inter-Light.ttf);
+  src: url(assets/Inter/static/Inter-Medium.ttf);
+  src: url(assets/Inter/static/Inter-Regular.ttf);
+  src: url(assets/Inter/static/Inter-SemiBold.ttf);
+  src: url(assets/Inter/static/Inter-Thin.ttf);
+}
+
+@font-face {
+	font-family: day_one;
+  src: url(assets/Days_One/DaysOne-Regular.ttf);
+}
+/* .container{
+  margin: 0 128px;
+  padding: 0;
+} */
+
+
+:root {
+  --yellow-color: #ffa400;
+  --black-color: #000000;
+  --white-color: white;
+}
+
