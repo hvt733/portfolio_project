@@ -19,37 +19,5 @@
 </head>
 <body>
   <app-root></app-root>
-  <script>
-    document.addEventListener("scroll", function() {
-      var counterElement = document.getElementById("counter");
-      var rect = counterElement.getBoundingClientRect();
-      var screenHeight = window.innerHeight || document.documentElement.clientHeight;
-
-      if (rect.top < screenHeight) {
-        animateCounter();
-      }
-    });
-
-    function animateCounter() {
-      var counterElement = document.getElementById("counter");
-      var targetNumber = 20;
-      var duration = 2000; // Thời gian animation (ms)
-      var frameDuration = 60 / 60; // Thời gian mỗi frame (ms)
-      var totalFrames = Math.ceil(duration / frameDuration);
-      var currentFrame = 0;
-
-      var increment = targetNumber / totalFrames;
-
-      var interval = setInterval(function() {
-        if (currentFrame === totalFrames) {
-          clearInterval(interval);
-        } else {
-          currentFrame++;
-          var animatedValue = Math.ceil(currentFrame * increment);
-          counterElement.textContent = animatedValue;
-        }
-      }, frameDuration);
-    }
-  </script>
 </body>
 </html>

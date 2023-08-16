@@ -6,6 +6,9 @@ import { FooterComponent } from './components//shared/footer/footer.component';
 import { MainLayoutComponent } from './components/shared/main-layout/main-layout.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+
 
 const routes: Routes = [
   {
@@ -18,19 +21,19 @@ const routes: Routes = [
         title: 'Home'
       },
       {
-        path: '',
-        component: HeaderComponent,
-        title: 'Header'
-      },
-      {
-        path: '',
-        component: FooterComponent,
-        title: 'Footer'
-      },
-      {
         path: 'projects',
         component: ProjectsComponent,
         title: 'Projects'
+      },
+      {
+        path: 'about',
+        component: AboutComponent,
+        title: 'About Us'
+      },
+      {
+        path: 'contact',
+        component: ContactComponent,
+        title: 'Contact with us'
       },
     ]
   }
