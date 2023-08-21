@@ -191,7 +191,7 @@ textarea:focus {
 
 /* faq */
 .faq .small_content{
-  display: flex;
+  display: inline-block;
   width: 100%;
   background-color: var(--white-color);
   border-radius: 10px;
@@ -278,31 +278,31 @@ textarea:focus {
 }
  */
 
+/* .box_right{
+  width: 70%;
+  margin-left: 0px;
+} */
 
-
-
-.small_content{
-  display: flex;
-  height: fit-content;
-}
-
-.box_left{
-  width: 75.54px;
-  height: 23.2px;
-}
-
-.box_left p{
+.box_left button{
   float: right;
+  border: 0px;
+  background-color: white;
+  color: var(--red-color); 
+  cursor: pointer;
+  outline: 0px;
+  position: relative;
+  top: -20px;
 }
 
 .small_box {
   display: none;
 }
 
-.box_left:hover .small_box{
+.item-box{
+  margin-top: 30px;
 	position: relative;
-  width: 575px;
-  right: 565px;
+  width: 1050px;
+  /* left: -61%; */
   display: flex;
   height: fit-content;
   flex-wrap: wrap;
