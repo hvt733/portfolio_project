@@ -177,13 +177,13 @@ margin-left: 20px;
     transform: rotate(0deg);
   }
 }
-.home .row .a{
+/* .home .row .a{
   display: flex;
   position: relative;
 
-}
+} */
 
-.home .light{
+/* .home .light{
   height: 100px;
   width: 100%;
   position: absolute;
@@ -195,4 +195,18 @@ margin-left: 20px;
 .home .light img{
   height: 100%;
   width: auto;
+} */
+
+.home .light{
+  position: absolute;
+  left: 70%;
+  top: -50%;
+  transform: translate(50%);
+  width: 120px;
+  height: 120px;
+}
+
+.home .light img{
+  width: auto;
+  height: 100%;
 }
