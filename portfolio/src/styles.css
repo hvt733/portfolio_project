@@ -67,5 +67,26 @@ a{
   --yellow-color: #ffa400;
   --black-color: #000000;
   --white-color: white;
+  --red-color: #C94440;
 }
 
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: #f5f5f5;
+}
+
+/* Hiển thị thanh cuộn trên các trình duyệt khác */
+body::-webkit-scrollbar {
+  width: 0.5em;
+
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
