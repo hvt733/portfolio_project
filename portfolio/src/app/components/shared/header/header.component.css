@@ -4,11 +4,12 @@
 .header{
   position: relative;
   margin-top: 50px;
+
 }
 /* navbar left */
 .header .nav_left{
   display: flex;
-  background-color: var(--white-color);
+  background-color: #F5F5F5;
 }
 
 .header .nav_left li{
@@ -59,6 +60,7 @@
   top: 50%;
   transform: translate(-50%,-50%);
   right: 0%;
+  background-color: #F5F5F5;
 }
 
 .header .nav_right li{
@@ -84,7 +86,7 @@
 }
 
 .header .logo_icon {
-  background-color: var(--white-color);
+
   position: absolute;
   left: 50%;
   top: 50%;
@@ -92,10 +94,10 @@
   width: 64px;
   height: 77px;
   background-image: url("../../../../assets/img/nav_logo_icon/black.png");
-
+  background-color: #F5F5F5;
 }
 .header .logo_icon:hover{
-  background-color: var(--white-color);
+  background-color: #F5F5F5;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -109,27 +111,27 @@
     background-position: 0;
     background-image: url("../../../../assets/img/nav_logo_icon/blue.png");
   }
-  28%{
+  29%{
     background-position: 0;
     background-image: url("../../../../assets/img/nav_logo_icon/orange.png");
   }
-  42%{
+  43%{
     background-position: 0;
     background-image: url("../../../../assets/img/nav_logo_icon/green.png");
   }
-  56%{
+  57%{
     background-position: 0;
     background-image: url("../../../../assets/img/nav_logo_icon/rouge.png");
   }
-  70%{
+  71%{
     background-position: 0;
     background-image: url("../../../../assets/img/nav_logo_icon/red_wine.png");
   }
-  84%{
+  85%{
     background-position: 0;
     background-image: url("../../../../assets/img/nav_logo_icon/yellow.png");
   }
-  98%{
+  99%{
     background-position: 0;
     background-image: url("../../../../assets/img/nav_logo_icon/blue.png");
   }

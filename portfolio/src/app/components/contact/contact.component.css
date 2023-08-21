@@ -1,0 +1,245 @@
+.contact{
+  margin: 100px 0;
+  position: relative;
+  background-color: #F5F5F5;
+
+}
+
+.left_contact {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.left_contact h1{
+  font-size: 70px;
+  font-family: istok;
+  font-weight: 800;
+  color: var(--black-color);
+  line-height: 96px;
+}
+.left_contact p{
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: istok;
+  color: var(--black-color);
+  line-height: 25px;
+  text-align: justify;
+}
+.form_message{
+
+  position: relative;
+  left: 55%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+.form_message::before{
+  position: absolute;
+  left: 0;
+  content: url(../../../assets/img/contact_img.png);
+  top: 0;
+  transform: translate(-11%,-5%);
+}
+.form_message .form{
+  padding: 35px;
+  background-color: var(--white-color);
+  border: 1px solid rgb(0,0,0, 50%);
+  box-shadow: 10px 10px 0px 0px black;
+  border-radius: 10px;
+  height: 525px;
+  width: 100%;
+  position: relative;
+  animation: fadeInFromTop 0.5s linear forwards, floating ease 4s infinite;
+}
+
+@keyframes fadeInFromTop{
+  from{
+    opacity: 0;
+    transform: translateY(-20px);
+
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floating {
+  0%{
+    transform: translate(0%,0%) rotate(360deg);
+  }
+  20%{
+    transform: translate(5%,10%) rotate(360deg);
+  }
+  40%{
+    transform: translate(0%,5%) rotate(360deg);
+  }
+  60%{
+    transform: translate(5%,0%) rotate(360deg);
+  }
+  80%{
+    transform: translate(6%,6%) rotate(360deg);
+  }
+  100%{
+    transform: translate(0%,0%) rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* .form_message .form::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: url(../../../assets/img/contact_img.png);
+  z-index: -1;
+  transform: translate(-12%,-12%);
+} */
+
+
+.form_message .form h3{
+  font-size: 24px;
+  font-family: istok;
+  color: var(--black-color);
+  text-align: justify;
+  font-weight: 800;
+
+}
+
+.form_message .form .form_group{
+  margin: 27px 0;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0,50%);
+  padding: 10px 0 10px 10px;
+  border-radius: 10px;
+  /* position: relative;
+  left: 50%;
+  transform: translateX(-50%); */
+}
+
+
+
+.form_message .form .form_group input{
+  border: 1px solid  white;
+  width: 95%;
+  font-family: istok;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.form_message .form .form_group:last-of-type input{
+  padding-bottom: 30px;
+}
+
+.form_message .form .form_group:last-of-type input{
+  padding-bottom: 30px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: white;
+}
+
+.form_message .form button{
+  padding: 20px;
+  width: 100%;
+  background-color: var(--red-color) ;
+  border-radius: 10px;
+  border: 1px solid var(--red-color);
+}
+
+.form_message .form button a{
+  font-size: 24px;
+  font-family: istok;
+  font-weight: 800;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.form_message .form button:hover a{
+  font-size: 24px;
+  font-family: istok;
+  font-weight: 800;
+  color: var(--red-color);
+  text-decoration: none;
+}
+.form_message .form button:hover{
+  background-color: var(--white-color) ;
+  border: 1px solid var(--red-color);
+  transition: background-color 0.3s;
+}
+
+
+.serve{
+  background-image: url(../../../assets/img/background_serve.jpg);
+}
+
+
+/* spider_web */
+
+/* .serve .spider_web {
+  background: ;
+} */
+
+
+/* faq */
+.faq .small_content{
+  display: flex;
+  width: 100%;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  border: 1px solid var(--black-color);
+  margin: 30px 0;
+  box-shadow: 5px 5px 0px 0px black;
+  padding: 25px;
+  justify-content: space-between;
+}
+
+.faq .small_content p{
+
+  font-family: istok;
+  font-family: 700;
+  font-size: 16px;
+}
+.faq .small_content a{
+  position: relative;
+  right: 0%;
+
+}
+.faq .small_content a{
+  color: var(--red-color);
+  font-family: istok;
+  font-size: 16px;
+  position: relative;
+  text-decoration: none;
+}
+.faq .small_content a::before{
+  background-color: var(--red-color);
+  content: "";
+  height: 1px;
+  width: 100%;
+  bottom: 1%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+
+
+
+.faq .view_more_content li{
+  display: none;
+}
+.faq a:hover .view_more_content li{
+  display: block;
+  position: absolute;
+  top: 0;
+  background-color: red;
+
+}
