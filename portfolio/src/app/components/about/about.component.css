@@ -101,9 +101,25 @@
 .bio_infor .right .r_template{
   margin: 0 0 50px 90px;
 }
+.hight_text h1{
+  animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
-
+.animation {
+  animation: fadeIn 1s ease-in-out;
+}
 
 /* SKILLS */
 
@@ -177,4 +193,29 @@
   object-fit: cover;
   height: 100px;
   width: 100%;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+.r_complete  h3 ,
+.r_template h3 {
+  animation: counter 3s forwards ;
+  counter-reset: num var(--num);
+
+}
+.r_complete  h3::before ,
+.r_template h3::before {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 20;
+  }
 }
