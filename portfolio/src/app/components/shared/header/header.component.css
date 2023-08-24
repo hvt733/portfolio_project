@@ -67,6 +67,11 @@
   margin-right: 19px;
   width: 38px;
   height: 36px;
+  background-color: transparent;
+}
+
+.header .nav_right li:hover{
+  box-shadow: 6px 5px 10px black;
 }
 
 .header .nav_right li a{

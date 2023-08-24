@@ -202,7 +202,7 @@
 }
 .r_complete  h3 ,
 .r_template h3 {
-  animation: counter 3s forwards ;
+  animation: counter 5s forwards ;
   counter-reset: num var(--num);
 
 }
