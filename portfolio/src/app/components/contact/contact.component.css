@@ -192,11 +192,8 @@ textarea:focus {
   background-color: var(--white-color);
   border-radius: 10px;
   border: 1px solid var(--black-color);
-<<<<<<< HEAD
   margin: 15px 0;
-=======
   margin: 20px 0;
->>>>>>> 9b246d168ee27e4fbaa3422470702de31da50821
   box-shadow: 5px 5px 0px 0px black;
   padding: 25px;
 }
