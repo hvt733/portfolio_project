@@ -81,7 +81,6 @@ window.onload=function(){
   let box_subject1=document.getElementById("subject1")
   let box_subject2=document.getElementById("subject2")
   const form=document.getElementById("form") 
-  console.log(form)
   box_name?.addEventListener('focus',function(){
     form?.classList.add('form_message_no')
   })

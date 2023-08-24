@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
 
 }
+
+window.onload=function(){
+  const btn=document.getElementById('light_dark')
+  const main_tag=document.getElementsByTagName('body')
+  console.log(main_tag)
+}
