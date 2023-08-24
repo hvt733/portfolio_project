@@ -9,6 +9,7 @@ export class ContactComponent {
 
 }
 
+
 window.onload=function(){
   const item=document.getElementById("small_box")
   let btn_form = document.getElementById("btn") 
@@ -74,4 +75,37 @@ window.onload=function(){
       item4?.classList.add("item-box")
     }
   })
+
+  let box_name=document.getElementById("full-name")
+  let box_email=document.getElementById("email")
+  let box_subject1=document.getElementById("subject1")
+  let box_subject2=document.getElementById("subject2")
+  const form=document.getElementById("form") 
+  console.log(form)
+  box_name?.addEventListener('focus',function(){
+    form?.classList.add('form_message_no')
+  })
+  box_email?.addEventListener('focus',function(){
+    form?.classList.add('form_message_no')
+  })
+  box_subject1?.addEventListener('focus',function(){
+    form?.classList.add('form_message_no')
+  })
+  box_subject2?.addEventListener('focus',function(){
+    form?.classList.add('form_message_no')
+  })
+
+  box_name?.addEventListener('blur',function(){
+    form?.classList.remove('form_message_no')
+  })
+  box_email?.addEventListener('blur',function(){
+    form?.classList.remove('form_message_no')
+  })
+  box_subject1?.addEventListener('blur',function(){
+    form?.classList.remove('form_message_no')
+  })
+  box_subject2?.addEventListener('blur',function(){
+    form?.classList.remove('form_message_no')
+  })
+
 }
