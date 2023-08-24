@@ -196,7 +196,7 @@ textarea:focus {
   background-color: var(--white-color);
   border-radius: 10px;
   border: 1px solid var(--black-color);
-  margin: 30px 0;
+  margin: 15px 0;
   box-shadow: 5px 5px 0px 0px black;
   padding: 25px;
   justify-content: space-between;
@@ -287,7 +287,7 @@ textarea:focus {
   float: right;
   border: 0px;
   background-color: white;
-  color: var(--red-color); 
+  color: var(--red-color);
   cursor: pointer;
   outline: 0px;
   position: relative;
