@@ -12,7 +12,7 @@ export class ContactComponent {
 
 window.onload=function(){
   const item=document.getElementById("small_box")
-  let btn_form = document.getElementById("btn") 
+  let btn_form = document.getElementById("btn")
   btn_form?.addEventListener('click',function(){
     if(item?.className.includes("item-box")){
       item?.classList.remove("item-box")
@@ -23,9 +23,9 @@ window.onload=function(){
       item?.classList.add("item-box")
     }
   })
-  
+
   const item1=document.getElementById("small_box1")
-  let btn_form1 = document.getElementById("btn1") 
+  let btn_form1 = document.getElementById("btn1")
   btn_form1?.addEventListener('click',function(){
     if(item1?.className.includes("item-box")){
       item1?.classList.remove("item-box")
@@ -38,7 +38,7 @@ window.onload=function(){
   })
 
   const item2=document.getElementById("small_box2")
-  let btn_form2 = document.getElementById("btn2") 
+  let btn_form2 = document.getElementById("btn2")
   btn_form2?.addEventListener('click',function(){
     if(item2?.className.includes("item-box")){
       item2?.classList.remove("item-box")
@@ -51,7 +51,7 @@ window.onload=function(){
   })
 
   const item3=document.getElementById("small_box3")
-  let btn_form3 = document.getElementById("btn3") 
+  let btn_form3 = document.getElementById("btn3")
   btn_form3?.addEventListener('click',function(){
     if(item3?.className.includes("item-box")){
       item3?.classList.remove("item-box")
@@ -64,7 +64,7 @@ window.onload=function(){
   })
 
   const item4=document.getElementById("small_box4")
-  let btn_form4 = document.getElementById("btn4") 
+  let btn_form4 = document.getElementById("btn4")
   btn_form4?.addEventListener('click',function(){
     if(item4?.className.includes("item-box")){
       item4?.classList.remove("item-box")
@@ -80,7 +80,7 @@ window.onload=function(){
   let box_email=document.getElementById("email")
   let box_subject1=document.getElementById("subject1")
   let box_subject2=document.getElementById("subject2")
-  const form=document.getElementById("form") 
+  const form=document.getElementById("form")
   box_name?.addEventListener('focus',function(){
     form?.classList.add('form_message_no')
   })
@@ -108,3 +108,24 @@ window.onload=function(){
   })
 
 }
+
+
+
+
+
+
+
+
+
+
+window.onscroll= function(){
+  console.info(document.documentElement.scroll);
+  var content = document.getElementById("webbb" );
+  if(document.documentElement.scrollTop >= 100){
+    content?.classList.add("show")
+  }
+  else{
+    content?.classList.remove("show")
+  }
+}
+

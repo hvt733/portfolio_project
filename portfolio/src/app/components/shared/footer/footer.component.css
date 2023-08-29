@@ -12,7 +12,6 @@
 .footer p{
   font-family: istok;
   font-size: 18px;
-  font-weight: 600;
   text-align: end;
   color: var(--black-color);
 }
@@ -58,3 +57,10 @@
 }
 
 
+.left{
+  float: left;
+}
+
+.mid p{
+  text-align: center;
+}
