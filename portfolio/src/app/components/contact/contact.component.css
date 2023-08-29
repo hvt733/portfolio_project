@@ -194,9 +194,8 @@ textarea:focus {
   width: 100%;
   background-color: var(--white-color);
   border-radius: 10px;
-  border: 1px solid var(--black-color);
-  margin: 15px 0;
-  margin: 20px 0;
+  /* border: 1px solid var(--black-color); */
+  margin: 16px 0;
   box-shadow: 5px 5px 0px 0px black;
   padding: 25px;
 }
@@ -209,8 +208,8 @@ textarea:focus {
 .faq .small_content p{
 
   font-family: istok;
-  font-family: 700;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
 }
 .faq .small_content a{
   position: relative;
@@ -283,8 +282,10 @@ textarea:focus {
   font-weight: 800;
 }
 
-
-
+.box_left u{
+  font-family: istok;
+  font-size: 15px;
+}
 .serve{
   margin: 550px 0;
 }

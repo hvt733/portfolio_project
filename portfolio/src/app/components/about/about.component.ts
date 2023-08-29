@@ -10,3 +10,28 @@ export class AboutComponent {
 
 }
 
+
+
+
+window.onscroll= function(){
+  console.info(document.documentElement.scroll);
+  var time = document.getElementById("time");
+  if(document.documentElement.scrollTop >= 10){
+    time?.classList.add("show");
+  }
+  else{
+    time?.classList.remove("show");
+  }
+}
+
+
+window.onscroll= function(){
+  console.info(document.documentElement.scroll);
+  var content = document.getElementById("edu");
+  if(document.documentElement.scrollTop >= 300){
+    content?.classList.toggle("show");
+  }
+  else{
+    content?.classList.remove("show");
+  }
+}

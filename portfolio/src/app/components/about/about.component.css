@@ -585,10 +585,7 @@
   }
 }
 
-
-
 /* education */
-
 
 .education .hight_textt h1{
   font-family: istok;
@@ -597,9 +594,13 @@
   margin: 25px 0;
   font-weight: 800;
 }
-
+.education .eduuuuu{
+  
+}
 .edu_content{
+
   margin: 30px 0 100px 0;
+
 }
 .education .content{
   position: absolute;
