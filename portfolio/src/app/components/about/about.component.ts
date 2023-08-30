@@ -11,7 +11,6 @@ export class AboutComponent {
 }
 
 window.onscroll = function() {
-  console.log("Hello Na")
   const anima1 = document.getElementById("anima1")
   const anima2 = document.getElementById("anima2")
   const anima3 = document.getElementById("anima3")
@@ -25,7 +24,7 @@ window.onscroll = function() {
     anima1?.classList.remove("anima1_run")
     anima2?.classList.remove("anima2_run")
     anima3?.classList.remove("anima3_run")
-    console.log(anima1?.className)
+    console.log(anima1?.className.includes("anima1_run"))
   }
 }
 
