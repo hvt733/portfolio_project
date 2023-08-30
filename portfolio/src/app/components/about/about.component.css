@@ -341,8 +341,11 @@
 
 .timeline .anima1{
   opacity: 0;
+}
+.anima1_run{
   animation: anima1 1s linear forwards;
 }
+
 @keyframes anima1 {
   0%{
     opacity: 0;
@@ -359,8 +362,11 @@
 
 .timeline .anima2{
   opacity: 0;
+}
+.anima2_tun{
   animation: anima2 1s linear forwards;
 }
+
 @keyframes anima2 {
   0%{
     opacity: 0;
@@ -375,8 +381,11 @@
 
 .timeline .anima3{
   opacity: 0;
+}
+.anima3_run{
   animation: anima3 1s linear forwards;
 }
+
 @keyframes anima3 {
   0%{
     opacity: 0;

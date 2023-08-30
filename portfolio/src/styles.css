@@ -20,6 +20,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
 li{
 	list-style: none;
 }
