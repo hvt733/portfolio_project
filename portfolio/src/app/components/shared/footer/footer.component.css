@@ -48,11 +48,7 @@
 }
 
 .mid span:first-child{
-  color: red;
-
-}
-.mid span:first-child{
-  color: red;
+  color: var(--red-color);
 
 }
 

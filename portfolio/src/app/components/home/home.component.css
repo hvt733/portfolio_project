@@ -15,7 +15,7 @@
 .box_text_right h1{
   font-family: day_one;
   font-size: 55px;
-  color: #1F1F1F;
+  color: var(--F1F-color);
   line-height: 64px;
   margin-bottom: 20px;
 }
@@ -25,7 +25,7 @@
   font-family: day_one;
   font-size: 20px;
   /* color: rgb(24, 24, 24,64%); */
-  color: #1818186a;
+  color: var(--a1818186a-color);
   line-height: 32px;
 }
 
@@ -76,7 +76,7 @@
 .box_bottom .bb_left button{
   padding: 15px;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 2px solid var(--black-color);
 }
 
 
@@ -147,7 +147,7 @@ margin-left: 20px;
   font-family: day_one;
   position: absolute;
   font-size: 20px;
-  color: white;
+  color: var(--white-color);
   text-decoration: none;
 
 }
@@ -155,7 +155,7 @@ margin-left: 20px;
 .circle:hover a{
   font-family: day_one;
   font-size: 20px;
-  color: black;
+  color: var(--black-color);
 
 }
 

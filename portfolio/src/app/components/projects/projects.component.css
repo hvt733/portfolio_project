@@ -10,7 +10,7 @@
   padding: 30px;
   border-radius: 10px;
   border: 2px solid black;
-  box-shadow: 10px 10px 0px 0px black;
+  box-shadow: 10px 10px 0px 0px var(--black-color);
   width: 100%;
 
 }
@@ -38,14 +38,14 @@
   transform: scale(103%);
 }
 .big_content .content_left p:first-of-type{
-  color: #C94440;
+  color: var(--red-color);
   font-size: 20px;
   font-family: istok;
   margin-top: 20px;
 }
 
 .big_content .content_left h3{
-  color: black;
+  color: var(--black-color);
   font-size: 36px;
   font-family: istok;
   font-weight: 800;
@@ -53,7 +53,7 @@
 }
 
 .big_content .content_left p:last-of-type{
-  color: black;
+  color: var(--black-color);
   font-size: 17px;
   font-family: istok;
   margin: 25px 0;
@@ -100,7 +100,7 @@
   padding: 30px;
   border-radius: 10px;
   border: 2px solid black;
-  box-shadow: 10px 10px 0px 0px black;
+  box-shadow: 10px 10px 0px 0px var(--black-color);
   width: 100%;
 
 }
@@ -155,7 +155,7 @@
 
 /* chỉnh chữ h3 to hơn */
 .content2 .sm_box h3{
-  color: black;
+  color: var(--black-color);
   font-size: 30px;
   font-family: istok;
   font-weight: 800;
@@ -187,7 +187,7 @@
 
 /* hover vào thẻ p của thẻ a */
 .content2 .small_content .sm_box a:hover {
-  color: #C94440;
+  color: var(--red-color);
 }
 .content2 .sm_box a:hover:before{
   position: absolute;
