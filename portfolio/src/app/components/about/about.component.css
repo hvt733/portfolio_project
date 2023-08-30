@@ -340,7 +340,7 @@
 /* .................................... */
 
 
-.timeline .container:nth-child(1) .anima{
+.timeline .container:nth-child(1) #anima{
   opacity: 0;
 }
 .anima1_run{
@@ -361,10 +361,10 @@
 
 
 
-.timeline .container:nth-child(2) .anima{
+.timeline .container:nth-child(2) #anima{
   opacity: 0;
 }
-.anima2_tun{
+.anima2_run{
   animation: anima2 1s linear forwards;
 }
 
@@ -380,7 +380,7 @@
 }
 
 
-.timeline .container:nth-child(3) .anima{
+.timeline .container:nth-child(3) #anima{
   opacity: 0;
 }
 .anima3_run{
@@ -400,14 +400,14 @@
 
 
 
-.timeline .container:nth-child(1) .anima{
+.timeline .container:nth-child(1) #anima{
   animation-delay: 0s;
 }
-.timeline .container:nth-child(2) .anima{
+.timeline .container:nth-child(2) #anima{
   animation-delay: 1s;
 }
 
-.timeline .container:nth-child(3) .anima{
+.timeline .container:nth-child(3) #anima{
   animation-delay: 2s;
 }
 
@@ -506,7 +506,7 @@
 }
 
 
-.experience .timeline .anima{
+.experience .timeline #anima{
   position: relative;
   background-color: white;
   padding: 24px;
@@ -603,9 +603,7 @@
   margin: 25px 0;
   font-weight: 800;
 }
-.education .eduuuuu{
-  
-}
+
 .edu_content{
 
   margin: 30px 0 100px 0;

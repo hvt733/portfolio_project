@@ -108,24 +108,3 @@ window.onload=function(){
   })
 
 }
-
-
-
-
-
-
-
-
-
-
-window.onscroll= function(){
-  console.info(document.documentElement.scroll);
-  var content = document.getElementById("webbb" );
-  if(document.documentElement.scrollTop >= 100){
-    content?.classList.add("show")
-  }
-  else{
-    content?.classList.remove("show")
-  }
-}
-
