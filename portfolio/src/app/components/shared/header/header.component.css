@@ -47,6 +47,7 @@
 }
 
 
+
 .header .nav_left li a:hover::after {
   opacity: 1;
 }
@@ -69,9 +70,7 @@
   background-color: transparent;
 }
 
-.header .nav_right li:hover{
-  box-shadow: 6px 5px 10px black;
-}
+
 
 .header .nav_right li a{
   height: 100%;

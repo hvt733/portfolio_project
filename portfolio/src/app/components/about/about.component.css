@@ -222,6 +222,7 @@
   height: 100%;
   width: 100%;
   padding: 60px 0;
+  margin-bottom: 80px;
 }
 .experience .high_text h1{
   font-family: istok;
@@ -242,15 +243,15 @@
 
 /* timeline */
 
-.timeline .left_container{
+.experience .timeline .left_container{
   left: 0%;
 }
-.timeline .right_container{
+.experience .timeline .right_container{
   left: 50%;
 }
 
 
-.timeline .container{
+.experience .timeline .container{
   margin: 0;
   position: relative;
   width: 50%;
@@ -282,7 +283,7 @@
 
 /* logo */
 
-.timeline .logo1{
+.timeline .container:nth-child(1) .logo{
   animation: logo1 1s forwards;
 }
 
@@ -295,7 +296,7 @@
   }
 }
 
-.timeline .logo2{
+.timeline .container:nth-child(2) .logo{
   animation: logo2 1s forwards;
   opacity: 0;
 }
@@ -310,7 +311,7 @@
 }
 
 
-.timeline .logo3{
+.timeline .container:nth-child(3) .logo{
   animation: logo3 1s forwards;
   opacity: 0;
 }
@@ -325,21 +326,21 @@
 }
 
 
-.timeline .logo1{
+.timeline .container:nth-child(1) .logo{
   animation-delay: 0s;
 }
-.timeline .logo2{
+.timeline .container:nth-child(2) .logo{
   animation-delay: 1s;
 }
 
-.timeline .logo3{
+.timeline .container:nth-child(3) .logo{
   animation-delay: 2s;
 }
 
 /* .................................... */
 
 
-.timeline .anima1{
+.timeline .container:nth-child(1) .anima{
   opacity: 0;
 }
 .anima1_run{
@@ -360,7 +361,7 @@
 
 
 
-.timeline .anima2{
+.timeline .container:nth-child(2) .anima{
   opacity: 0;
 }
 .anima2_tun{
@@ -379,7 +380,7 @@
 }
 
 
-.timeline .anima3{
+.timeline .container:nth-child(3) .anima{
   opacity: 0;
 }
 .anima3_run{
@@ -399,21 +400,21 @@
 
 
 
-.timeline .anima1{
+.timeline .container:nth-child(1) .anima{
   animation-delay: 0s;
 }
-.timeline .anima2{
+.timeline .container:nth-child(2) .anima{
   animation-delay: 1s;
 }
 
-.timeline .anima3{
+.timeline .container:nth-child(3) .anima{
   animation-delay: 2s;
 }
 
 /* ................................ */
 
 
-.timeline .text_box_left .logo2{
+.experience .timeline .text_box_left .logo{
   position: absolute;
   left: 97%;
   top: 7%;
@@ -425,8 +426,7 @@
 }
 
 
-.timeline .text_box_right .logo1,
-.timeline .text_box_right .logo3{
+.experience .timeline .text_box_right .logo{
   position: absolute;
   left: -3%;
   top: 7%;
@@ -436,18 +436,18 @@
   padding: 5px 5px 3px 5px;
   z-index: 999;
 }
-.timeline img{
+.experience .timeline img{
 
   height: 100%;
   width: auto;
 }
 
 
-.timeline .left_container{
+.experience .timeline .left_container{
 
   position: relative;
 }
-.timeline .left_container:before{
+.experience .timeline .left_container:before{
   position: absolute;
   left: 109%;
   top: 0;
@@ -481,34 +481,32 @@
 
 
 
-.text_box_right h3,
-.text_box_left h3{
+.experience .text_box_right h3,
+.experience .text_box_left h3{
   font-weight: 800;
   font-size: 24px;
   font-family: istok;
 }
-.text_box_right span,
-.text_box_left span{
+.experience .text_box_right span,
+.experience .text_box_left span{
   color:#C94440;
 }
-.text_box_right p:first-of-type,
-.text_box_left p:first-of-type{
+.experience .text_box_right p:first-of-type,
+.experience .text_box_left p:first-of-type{
   font-size: 15px;
   color: rgb(0,0,0,0.55);
   margin: 10px 0;
   font-family: istok;
 }
-.text_box_right p:last-of-type,
-.text_box_left p:last-of-type{
+.experience .text_box_right p:last-of-type,
+.experience .text_box_left p:last-of-type{
   font-size: 15px;
   color: rgb(0,0,0);
   font-family: istok;
 }
 
 
-.timeline .anima1,
-.timeline .anima2,
-.timeline .anima3{
+.experience .timeline .anima{
   position: relative;
   background-color: white;
   padding: 24px;
@@ -518,7 +516,7 @@
 }
 
 
-.left_arrow{
+.experience .left_arrow{
   height: 0;
   width: 0px;
   position: absolute;
@@ -532,7 +530,7 @@
 
 
 
-.left_arrow_b{
+.experience .left_arrow_b{
   height: 0;
   width: 0px;
   position: absolute;
@@ -544,7 +542,7 @@
 
 }
 
-.right_arrow{
+.experience .right_arrow{
   height: 0;
   width: 0px;
   position: absolute;
@@ -559,7 +557,7 @@
 
 
 
-.right_arrow_b{
+.experience .right_arrow_b{
   height: 0;
   width: 0px;
   position: absolute;
@@ -573,7 +571,7 @@
 }
 
 
-.timeline::after{
+.experience .timeline::after{
   content: "";
   position: absolute;
   width: 6px;
@@ -583,11 +581,11 @@
   left: 50%;
   margin-left: 0;
   z-index: 1;
-  animation: moveline 2.25s linear forwards;
+  animation: movee 2.25s linear forwards;
 
 }
 
-@keyframes moveline {
+@keyframes movee {
   0%{
     height: 0;
   }
@@ -595,3 +593,282 @@
     height: 70%;
   }
 }
+
+/* education */
+
+.education .hight_textt h1{
+  font-family: istok;
+  font-size: 80px;
+  text-align: center;
+  margin: 25px 0;
+  font-weight: 800;
+}
+.education .eduuuuu{
+  
+}
+.edu_content{
+
+  margin: 30px 0 100px 0;
+
+}
+.education .content{
+  position: absolute;
+  left: 0;
+  width: 45%;
+  transform: translateX(60%);
+
+  /* background-color: green; */
+
+}
+.education .content h3{
+  font-family: istok;
+  font-size: 24px;
+  font-weight: 800;
+
+}
+.education .content p:first-of-type{
+  font-family: istok;
+  font-size: 16px;
+  color: rgb(0, 0, 0,0.5);
+
+}
+.education .content p:last-of-type{
+  font-family: istok;
+  font-size: 16px;
+}
+
+
+.edu_content{
+  position: relative;
+}
+
+.edu_content::before{
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 85%;
+  top: 0;
+  background-color: black;
+  left: 14%;
+  z-index: -2;
+  animation: moveline 3s linear forwards;
+}
+
+
+@keyframes moveline {
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 85%;
+  }
+}
+
+.edu_content .small_content{
+  margin: 40px 0;
+}
+
+.edu_content  .content{
+  position: relative;
+
+}
+
+.content .anh{
+  position: absolute;
+  padding: 17px;
+  left: -32%;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid black;
+
+}
+.content .nutdo{
+  position: absolute;
+  padding: 9.5px;
+  left: -30%;
+  top: 10%;
+  background-color: #C94440;
+  border-radius: 50%;
+}
+
+
+
+.content:nth-child(1) .anh,
+.content:nth-child(1) .nutdo{
+  opacity: 0;
+  animation: nutdo1 0s linear forwards;
+}
+@keyframes nutdo1 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.content:nth-child(2) .anh,
+.content:nth-child(2) .nutdo{
+  opacity: 0;
+  animation: nutdo2 0.2s linear forwards;
+}
+
+@keyframes nutdo2 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.content:nth-child(3) .anh,
+.content:nth-child(3) .nutdo{
+  opacity: 0;
+  animation: nutdo3 0.2s linear forwards;
+}
+
+
+@keyframes nutdo3 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.content:nth-child(4) .anh,
+.content:nth-child(4) .nutdo{
+  opacity: 0;
+  animation: nutdo4 0.2s linear forwards;
+}
+
+@keyframes nutdo4 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+.content:nth-child(1) .anh,
+.content:nth-child(1) .nutdo{
+  animation-delay: 0s;
+}
+.content:nth-child(2) .anh,
+.content:nth-child(2) .nutdo{
+  animation-delay: 1s;
+}
+.content:nth-child(3) .anh,
+.content:nth-child(3) .nutdo{
+  animation-delay: 2s;
+}
+.content:nth-child(4) .anh,
+.content:nth-child(4) .nutdo{
+  animation-delay: 3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content:nth-child(1) .small_content{
+  opacity: 0;
+  animation: small1 1s linear forwards;
+}
+@keyframes small1 {
+  0%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+}
+
+.content:nth-child(2) .small_content{
+  opacity: 0;
+  animation: small2 1s linear forwards;
+}
+@keyframes small2 {
+  0%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+}
+
+
+.content:nth-child(3) .small_content{
+  opacity: 0;
+  animation: small3 1s linear forwards;
+}
+
+@keyframes small3 {
+  0%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+}
+
+
+
+
+.content:nth-child(4) .small_content{
+  opacity: 0;
+  animation: small4 1s linear forwards;
+}
+
+@keyframes small4 {
+  0%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+}
+
+
+
+.content:nth-child(1) .small_content{
+  animation-delay: 0s;
+}
+.content:nth-child(2) .small_content{
+  animation-delay: 1s;
+}
+.content:nth-child(3) .small_content{
+  animation-delay: 2s;
+}
+.content:nth-child(4) .small_content{
+  animation-delay: 3s;
+}
+
+
+
+
+
