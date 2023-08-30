@@ -15,5 +15,18 @@
 </head>
 <body>
   <app-root></app-root>
+  <script>
+    window.onload=function(){
+      var icon = document.getElementById("dark_mode");
+      icon?.addEventListener('click',()=>{
+        document.body.classList.toggle("dark_theme")
+        if(document.body.classList.contains("dark_theme")){
+          icon?.classList.add("dark");
+        } else{
+          icon?.classList.remove("dark");
+        }
+      })
+    }
+  </script>
 </body>
 </html>

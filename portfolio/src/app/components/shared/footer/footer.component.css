@@ -22,8 +22,8 @@
 .footer .mid span:last-child::after{
   position: absolute;
   content: "";
-  height: 2px;
-  bottom: 0;
+  height: 1px;
+  bottom: 5%;
   width: 100%;
   background-color: var(--black-color);
   left: 50%;
@@ -36,8 +36,8 @@
 .footer .right span:last-child::after{
   position: absolute;
   content: "";
-  height: 2px;
-  bottom: 0;
+  height: 1px;
+  bottom: 5%;
   width: 100%;
   background-color: var(--black-color);
   left: 50%;

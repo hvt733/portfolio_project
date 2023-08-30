@@ -9,9 +9,3 @@ export class HeaderComponent {
 
 }
 
-window.onload=function(){
-  const btn=document.getElementById('test')
-  btn?.addEventListener('click',function(){
-    console.log("Hello Na")
-  })
-}
