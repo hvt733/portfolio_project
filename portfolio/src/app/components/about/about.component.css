@@ -282,9 +282,10 @@
 
 
 /* logo */
-
-.timeline .container:nth-child(1) .logo{
+.logo1_ani{
+  opacity: 0;
   animation: logo1 1s forwards;
+  animation-delay: 0s;
 }
 
 @keyframes logo1 {
@@ -297,8 +298,12 @@
 }
 
 .timeline .container:nth-child(2) .logo{
-  animation: logo2 1s forwards;
   opacity: 0;
+}
+
+.logo2_ani{
+  animation: logo2 1s forwards;
+  animation-delay: 1s;
 }
 
 @keyframes logo2 {
@@ -312,8 +317,12 @@
 
 
 .timeline .container:nth-child(3) .logo{
-  animation: logo3 1s forwards;
   opacity: 0;
+}
+
+.logo3_ani{
+  animation: logo3 1s forwards;
+  animation-delay: 2.25s;
 }
 
 @keyframes logo3 {
@@ -325,26 +334,15 @@
   }
 }
 
-
-.timeline .container:nth-child(1) .logo{
-  animation-delay: 0s;
-}
-.timeline .container:nth-child(2) .logo{
-  animation-delay: 1s;
-}
-
-.timeline .container:nth-child(3) .logo{
-  animation-delay: 2s;
-}
-
 /* .................................... */
 
 
-.timeline .container:nth-child(1) #anima{
+.timeline .container:nth-child(1) .anima1{
   opacity: 0;
 }
 .anima1_run{
   animation: anima1 1s linear forwards;
+  animation-delay: 0.5s;
 }
 
 @keyframes anima1 {
@@ -358,14 +356,12 @@
   }
 }
 
-
-
-
-.timeline .container:nth-child(2) #anima{
+.timeline .container:nth-child(2) .anima2{
   opacity: 0;
 }
 .anima2_run{
   animation: anima2 1s linear forwards;
+  animation-delay: 1.5s;
 }
 
 @keyframes anima2 {
@@ -380,11 +376,12 @@
 }
 
 
-.timeline .container:nth-child(3) #anima{
+.timeline .container:nth-child(3) .anima3{
   opacity: 0;
 }
 .anima3_run{
   animation: anima3 1s linear forwards;
+  animation-delay: 2.5s;
 }
 
 @keyframes anima3 {
@@ -399,17 +396,9 @@
 }
 
 
-
-.timeline .container:nth-child(1) #anima{
-  animation-delay: 0s;
-}
-.timeline .container:nth-child(2) #anima{
-  animation-delay: 1s;
-}
-
-.timeline .container:nth-child(3) #anima{
+/* .timeline .container:nth-child(3){
   animation-delay: 2s;
-}
+} */
 
 /* ................................ */
 
@@ -457,7 +446,7 @@
   padding: 7px;
 }
 
-/*
+/* 
 .timeline .right_container:first-child::before{
   position: absolute;
   height: 65%;
@@ -506,7 +495,9 @@
 }
 
 
-.experience .timeline #anima{
+.experience .timeline .anima1,
+.experience .timeline .anima2,
+.experience .timeline .anima3{
   position: relative;
   background-color: white;
   padding: 24px;
@@ -571,7 +562,7 @@
 }
 
 
-.experience .timeline::after{
+.experience .timeline_ani::after{
   content: "";
   position: absolute;
   width: 6px;
@@ -581,9 +572,10 @@
   left: 50%;
   margin-left: 0;
   z-index: 1;
-  animation: movee 2.25s linear forwards;
-
+  animation: movee 2.5s linear forwards;
 }
+
+
 
 @keyframes movee {
   0%{
@@ -640,7 +632,7 @@
   position: relative;
 }
 
-.edu_content::before{
+.edu_ani::before{
   position: absolute;
   content: "";
   width: 5px;
@@ -652,13 +644,15 @@
   animation: moveline 3s linear forwards;
 }
 
+/* .edu_ani{
+} */
 
 @keyframes moveline {
   0%{
     height: 0;
   }
   100%{
-    height: 85%;
+    height: 80%;
   }
 }
 
@@ -694,8 +688,12 @@
 .content:nth-child(1) .anh,
 .content:nth-child(1) .nutdo{
   opacity: 0;
+}
+
+.nutdo1_ani{
   animation: nutdo1 0s linear forwards;
 }
+
 @keyframes nutdo1 {
   0%{
     opacity: 0;
@@ -708,6 +706,9 @@
 .content:nth-child(2) .anh,
 .content:nth-child(2) .nutdo{
   opacity: 0;
+}
+
+.nutdo2_ani{
   animation: nutdo2 0.2s linear forwards;
 }
 
@@ -724,9 +725,11 @@
 .content:nth-child(3) .anh,
 .content:nth-child(3) .nutdo{
   opacity: 0;
-  animation: nutdo3 0.2s linear forwards;
 }
 
+.nutdo3_ani{
+  animation: nutdo3 0.2s linear forwards;
+}
 
 @keyframes nutdo3 {
   0%{
@@ -740,6 +743,9 @@
 .content:nth-child(4) .anh,
 .content:nth-child(4) .nutdo{
   opacity: 0;
+}
+
+.nutdo4_ani{
   animation: nutdo4 0.2s linear forwards;
 }
 
@@ -787,8 +793,13 @@
 
 .content:nth-child(1) .small_content{
   opacity: 0;
-  animation: small1 1s linear forwards;
 }
+
+.small1_ani{
+  animation: small1 1s linear forwards;
+  animation-delay: 0s;
+}
+
 @keyframes small1 {
   0%{
     opacity: 0;
@@ -802,8 +813,13 @@
 
 .content:nth-child(2) .small_content{
   opacity: 0;
-  animation: small2 1s linear forwards;
 }
+
+.small2_ani{
+  animation: small2 1s linear forwards;
+  animation-delay: 1s;
+}
+
 @keyframes small2 {
   0%{
     opacity: 0;
@@ -818,7 +834,11 @@
 
 .content:nth-child(3) .small_content{
   opacity: 0;
+}
+
+.small3_ani{
   animation: small3 1s linear forwards;
+  animation-delay: 2s;
 }
 
 @keyframes small3 {
@@ -832,12 +852,13 @@
   }
 }
 
-
-
-
 .content:nth-child(4) .small_content{
   opacity: 0;
+}
+
+.small4_ani{
   animation: small4 1s linear forwards;
+  animation-delay: 3s;
 }
 
 @keyframes small4 {
@@ -850,23 +871,4 @@
     transform: translateX(-10px);
   }
 }
-
-
-
-.content:nth-child(1) .small_content{
-  animation-delay: 0s;
-}
-.content:nth-child(2) .small_content{
-  animation-delay: 1s;
-}
-.content:nth-child(3) .small_content{
-  animation-delay: 2s;
-}
-.content:nth-child(4) .small_content{
-  animation-delay: 3s;
-}
-
-
-
-
 

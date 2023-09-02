@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { timer } from 'rxjs';
 
 @Component({
   selector: 'app-contact',
@@ -106,7 +107,6 @@ window.onload=function(){
   box_subject2?.addEventListener('blur',function(){
     form?.classList.remove('form_message_no')
   })
-
 }
 
 window.onscroll= function(){
@@ -117,5 +117,74 @@ window.onscroll= function(){
   else{
     content?.classList.remove("show")
   }
-}
 
+  var anima1=document.getElementById("anima1")
+  var anima2=document.getElementById("anima2")
+  var anima3=document.getElementById("anima3")
+  var logo1=document.getElementById("logo1")
+  var logo2=document.getElementById("logo2")
+  var logo3=document.getElementById("logo3")
+  var timeline=document.getElementById("timeline")
+  if(document.documentElement.scrollTop >= 1300){
+    anima1?.classList.add("anima1_run")
+    anima2?.classList.add("anima2_run")
+    anima3?.classList.add("anima3_run")
+    logo1?.classList.add("logo1_ani")
+    logo2?.classList.add("logo2_ani")
+    logo3?.classList.add("logo3_ani")
+    timeline?.classList.add("timeline_ani")
+  }
+  else{
+    anima1?.classList.remove("anima1_run")
+    anima2?.classList.remove("anima2_run")
+    anima3?.classList.remove("anima3_run")
+    logo1?.classList.remove("logo1_ani")
+    logo2?.classList.remove("logo2_ani")
+    logo3?.classList.remove("logo3_ani")
+    timeline?.classList.remove("timeline_ani")
+  }
+  
+  var edu_before=document.getElementById("edu")
+  var nutdo1=document.getElementById("nutdo1")
+  var anh1=document.getElementById("anh1")
+  var nutdo2=document.getElementById("nutdo2")
+  var anh2=document.getElementById("anh2")
+  var nutdo3=document.getElementById("nutdo3")
+  var anh3=document.getElementById("anh3")
+  var nutdo4=document.getElementById("nutdo4")
+  var anh4=document.getElementById("anh4")
+  var small_content1=document.getElementById("small_content1")
+  var small_content2=document.getElementById("small_content2")
+  var small_content3=document.getElementById("small_content3")
+  var small_content4=document.getElementById("small_content4")
+  if(document.documentElement.scrollTop >= 2220){
+    edu_before?.classList.add("edu_ani")
+    nutdo1?.classList.add("nutdo1_ani")
+    anh1?.classList.add('nutdo1_ani')
+    nutdo2?.classList.add("nutdo2_ani")
+    anh2?.classList.add('nutdo2_ani')
+    nutdo3?.classList.add("nutdo3_ani")
+    anh3?.classList.add('nutdo3_ani')
+    nutdo4?.classList.add("nutdo4_ani")
+    anh4?.classList.add('nutdo4_ani')
+    small_content1?.classList.add("small1_ani")
+    small_content2?.classList.add("small2_ani")
+    small_content3?.classList.add("small3_ani")
+    small_content4?.classList.add("small4_ani")
+  }
+  else{
+    edu_before?.classList.remove("edu_ani")
+    nutdo1?.classList.remove("nutdo1_ani")
+    anh1?.classList.remove('nutdo1_ani')
+    nutdo2?.classList.remove("nutdo2_ani")
+    anh2?.classList.remove('nutdo2_ani')
+    nutdo3?.classList.remove("nutdo3_ani")
+    anh3?.classList.remove('nutdo3_ani')
+    nutdo4?.classList.remove("nutdo4_ani")
+    anh4?.classList.remove('nutdo4_ani')
+    small_content1?.classList.remove("small1_ani")
+    small_content2?.classList.remove("small2_ani")
+    small_content3?.classList.remove("small3_ani")
+    small_content4?.classList.remove("small4_ani")
+  }
+}
