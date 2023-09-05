@@ -20,16 +20,18 @@
   margin-bottom: 20px;
 }
 
-.box_text_right p{
-
-  font-family: day_one;
+.box_text_right .col-12:nth-of-type(2) p{
+  margin: 20px 0;
+  font-family: istok;
   font-size: 20px;
   /* color: rgb(24, 24, 24,64%); */
   color: var(--a1818186a-color);
-  line-height: 32px;
+
 }
 
-
+.bb_right p{
+  font-family: day_one;
+}
 
 
 .box_bottom .bb_left p{

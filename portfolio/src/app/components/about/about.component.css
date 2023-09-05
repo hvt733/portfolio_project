@@ -1,8 +1,10 @@
 /* Biography */
-
+.biography{
+  margin-top: 72px;
+}
 .biography .bio_infor{
   display: flex;
-  margin-bottom: 80px;
+
 }
 
 
@@ -10,7 +12,7 @@
   font-family: istok;
   font-size: 80px;
   text-align: center;
-  margin: 40px 0;
+  margin-bottom: 72px;
   font-weight: 800;
 }
 
@@ -19,7 +21,7 @@
   font-size: 14px;
   font-weight: 600;
   font-family: istok;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .bio_infor .left span{
   color: var(--black-color);
@@ -81,21 +83,7 @@
   width: 100%;
 }
 
-/* .bio_infor .right .r_experience,
-.bio_infor .right .r_complete,
-.bio_infor .right .r_template{
-  width: 100%;
-  margin-bottom: 30px;
-}
-.bio_infor .right .r_experience h3,
-.bio_infor .right .r_experience p,
-.bio_infor .right .r_complete h3,
-.bio_infor .right .r_complete p,
-.bio_infor .right .r_template h3,
-.bio_infor .right .r_template p{
-  text-align: center;
 
-} */
 .bio_infor .right .r_experience,
 .bio_infor .right .r_complete,
 .bio_infor .right .r_template{
@@ -124,22 +112,24 @@
 /* SKILLS */
 
 .skills{
+  margin-top: 240px;
   margin-bottom: 100px ;
 }
 .skills .high_text h1{
   font-family: istok;
   font-size: 80px;
   text-align: center;
-  margin: 30px 0;
   font-weight: 800;
 }
+
 .skills .high_text p{
   color: var(--black-color);
   font-size: 20px;
   font-family: istok;
-  margin: 20px 0;
+  margin: 48px 0 24px 0;
   text-align: center;
 }
+
 .skills .high_text span{
   color: var(--black-color);
   font-size: 20px;
@@ -221,14 +211,14 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
-  padding: 60px 0;
+  padding: 80px;
   margin-bottom: 80px;
 }
 .experience .high_text h1{
   font-family: istok;
   font-size: 80px;
   text-align: center;
-  margin: 40px 0;
+  margin-bottom: 80px;
   font-weight: 800;
 }
 
@@ -446,7 +436,7 @@
   padding: 7px;
 }
 
-/* 
+/*
 .timeline .right_container:first-child::before{
   position: absolute;
   height: 65%;
@@ -592,7 +582,7 @@
   font-family: istok;
   font-size: 80px;
   text-align: center;
-  margin: 25px 0;
+  margin: 120px 0 70px 0;
   font-weight: 800;
 }
 
@@ -676,7 +666,7 @@
 }
 .content .nutdo{
   position: absolute;
-  padding: 9.5px;
+  padding: 9px;
   left: -30%;
   top: 10%;
   background-color: #C94440;

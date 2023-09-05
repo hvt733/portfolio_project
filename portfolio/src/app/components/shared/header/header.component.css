@@ -2,18 +2,19 @@
 
 .header{
   position: relative;
-  margin-top: 50px;
+  margin-top: 40px;
 
 }
 /* navbar left */
 .header .nav_left{
+  padding-left:  15px;
   display: flex;
   background-color: var(--F5F5F5-color);
 }
 
 .header .nav_left li{
   position: relative;
-  padding: 0 10px;
+  padding-right: 20px;
   font-family: istok;
   color: var(--black-color);
 }
@@ -55,9 +56,9 @@
 }
 
 .header .nav_right li{
-  margin-right: 19px;
+  margin-left: 19px;
   width: 38px;
-  height: 36px;
+  height: 38px;
   background-color: transparent;
 }
 
@@ -68,7 +69,7 @@
   width: auto;
 }
 /* logo_icon_mid */
-.logo_icon a{
+.logo_icon{
   width: 64px;
   height: 76px;
 
@@ -80,11 +81,10 @@
 }
 
 .header .logo_icon {
-
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(-50%,-50%);
   width: 64px;
   height: 77px;
   background-image: url("../../../../assets/img/nav_logo_icon/black.png");
@@ -95,7 +95,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(-50%,-50%);
   width: 64px;
   animation: animate 1s  steps(7) infinite;
 }

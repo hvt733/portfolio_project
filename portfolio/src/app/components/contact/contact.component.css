@@ -22,7 +22,6 @@
   font-size: 16px;
   font-family: istok;
   color: var(--black-color);
-  line-height: 25px;
   text-align: justify;
 }
 .form_message{
@@ -473,6 +472,23 @@ textarea:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .web_spider{
   display: none;
 }
@@ -532,25 +548,9 @@ textarea:focus {
 }
 /* Vòng tròn trong cùng */
 
-.vong:nth-child(3) h3:nth-of-type(1){
-  opacity: 0;
-  animation: vong_trong_h3 1s forwards;
-
-}
-
-.vong:nth-child(3) h3:nth-of-type(2){
-  opacity: 0;
-  animation: vong_trong_h3 1s forwards;
-
-}
-
-.vong:nth-child(3) h3:nth-of-type(3){
-  opacity: 0;
-  animation: vong_trong_h3 1s forwards;
-
-}
-
-
+.vong:nth-child(3) h3:nth-of-type(1),
+.vong:nth-child(3) h3:nth-of-type(2),
+.vong:nth-child(3) h3:nth-of-type(3),
 .vong:nth-child(3) h3:nth-of-type(4){
   opacity: 0;
   animation: vong_trong_h3 1s forwards;
@@ -604,31 +604,10 @@ textarea:focus {
   }
 }
 
-.vong:nth-child(2) h3:nth-of-type(1){
-  opacity: 0;
-  animation: vong_giua_h3 1s forwards;
-
-}
-
-
-.vong:nth-child(2) h3:nth-of-type(2){
-  opacity: 0;
-  animation: vong_giua_h3 1s forwards;
-
-}
-
-.vong:nth-child(2) h3:nth-of-type(3){
-  opacity: 0;
-  animation: vong_giua_h3 1s forwards;
-
-}
-
-.vong:nth-child(2) h3:nth-of-type(4){
-  opacity: 0;
-  animation: vong_giua_h3 1s forwards;
-
-}
-
+.vong:nth-child(2) h3:nth-of-type(1),
+.vong:nth-child(2) h3:nth-of-type(2),
+.vong:nth-child(2) h3:nth-of-type(3),
+.vong:nth-child(2) h3:nth-of-type(4),
 .vong:nth-child(2) h3:nth-of-type(5){
   opacity: 0;
   animation: vong_giua_h3 1s forwards;
@@ -649,7 +628,7 @@ textarea:focus {
 .vong:nth-child(2) h3:nth-of-type(3),
 .vong:nth-child(2) h3:nth-of-type(4),
 .vong:nth-child(2) h3:nth-of-type(5){
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 
@@ -681,41 +660,11 @@ textarea:focus {
 }
 
 
-.vong:nth-child(1) h3:nth-of-type(1){
-  opacity: 0;
-  animation: vong_ngoai_h3 1s forwards;
-
-}
-
-
-.vong:nth-child(1) h3:nth-of-type(2){
-  opacity: 0;
-  animation: vong_ngoai_h3 1s forwards;
-
-}
-
-
-.vong:nth-child(1) h3:nth-of-type(3){
-  opacity: 0;
-  animation: vong_ngoai_h3 1s forwards;
-
-}
-
-
-.vong:nth-child(1) h3:nth-of-type(4){
-  opacity: 0;
-  animation: vong_ngoai_h3 1s forwards;
-
-}
-
-
-.vong:nth-child(1) h3:nth-of-type(5){
-  opacity: 0;
-  animation: vong_ngoai_h3 1s forwards;
-
-}
-
-
+.vong:nth-child(1) h3:nth-of-type(1),
+.vong:nth-child(1) h3:nth-of-type(2),
+.vong:nth-child(1) h3:nth-of-type(3),
+.vong:nth-child(1) h3:nth-of-type(4),
+.vong:nth-child(1) h3:nth-of-type(5),
 .vong:nth-child(1) h3:nth-of-type(6){
   opacity: 0;
   animation: vong_ngoai_h3 1s forwards;
@@ -734,16 +683,11 @@ textarea:focus {
 
 
 
-
-
-
-
-
 .vong:nth-child(1) h3:nth-of-type(1),
 .vong:nth-child(1) h3:nth-of-type(2),
 .vong:nth-child(1) h3:nth-of-type(3),
 .vong:nth-child(1) h3:nth-of-type(4),
 .vong:nth-child(1) h3:nth-of-type(5),
 .vong:nth-child(1) h3:nth-of-type(6){
-  animation-delay: 3s;
+  animation-delay: 2s;
 }

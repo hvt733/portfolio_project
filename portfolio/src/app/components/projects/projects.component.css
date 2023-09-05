@@ -1,8 +1,11 @@
 .projects{
   margin: 40px 0 100px 0;
 }
+.content2{
+  margin-bottom: 130px;
+}
 .content1{
-  margin: 60px 0;
+  margin-bottom: 72px;
 }
 
 .big_content{
@@ -200,3 +203,10 @@
 }
 
 
+.projects .high_text h1{
+  font-family: istok;
+  font-size: 80px;
+  text-align: center;
+  margin: 72px 10%;
+  font-weight: 800;
+}

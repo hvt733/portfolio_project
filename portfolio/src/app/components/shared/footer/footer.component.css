@@ -46,6 +46,9 @@
 .right{
   float: right;
 }
+.right a{
+  text-decoration: none;
+}
 
 .mid span:first-child{
   color: var(--red-color);

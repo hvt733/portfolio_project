@@ -114,9 +114,7 @@ window.onscroll= function(){
   if(document.documentElement.scrollTop >= 100){
     content?.classList.add("show")
   }
-  else{
-    content?.classList.remove("show")
-  }
+
 
   var anima1=document.getElementById("anima1")
   var anima2=document.getElementById("anima2")
@@ -134,16 +132,8 @@ window.onscroll= function(){
     logo3?.classList.add("logo3_ani")
     timeline?.classList.add("timeline_ani")
   }
-  else{
-    anima1?.classList.remove("anima1_run")
-    anima2?.classList.remove("anima2_run")
-    anima3?.classList.remove("anima3_run")
-    logo1?.classList.remove("logo1_ani")
-    logo2?.classList.remove("logo2_ani")
-    logo3?.classList.remove("logo3_ani")
-    timeline?.classList.remove("timeline_ani")
-  }
-  
+
+
   var edu_before=document.getElementById("edu")
   var nutdo1=document.getElementById("nutdo1")
   var anh1=document.getElementById("anh1")
@@ -172,19 +162,5 @@ window.onscroll= function(){
     small_content3?.classList.add("small3_ani")
     small_content4?.classList.add("small4_ani")
   }
-  else{
-    edu_before?.classList.remove("edu_ani")
-    nutdo1?.classList.remove("nutdo1_ani")
-    anh1?.classList.remove('nutdo1_ani')
-    nutdo2?.classList.remove("nutdo2_ani")
-    anh2?.classList.remove('nutdo2_ani')
-    nutdo3?.classList.remove("nutdo3_ani")
-    anh3?.classList.remove('nutdo3_ani')
-    nutdo4?.classList.remove("nutdo4_ani")
-    anh4?.classList.remove('nutdo4_ani')
-    small_content1?.classList.remove("small1_ani")
-    small_content2?.classList.remove("small2_ani")
-    small_content3?.classList.remove("small3_ani")
-    small_content4?.classList.remove("small4_ani")
-  }
+
 }
