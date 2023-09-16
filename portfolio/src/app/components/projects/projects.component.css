@@ -1,212 +1,435 @@
-.projects{
-  margin: 40px 0 100px 0;
+@media only screen and (min-width: 1024px){
+  .project_MB{
+    display: none;
+  }
+  .projects{
+    margin: 3% 0 3% 0;
+  }
+  .content2{
+    margin-bottom: 130px;
+  }
+  .content1{
+    margin-bottom: 72px;
+  }
+
+  .projects .high_text h1{
+    font-family: istok;
+    font-size: 80px;
+    text-align: center;
+    margin: 5%;
+    font-weight: 800;
+  }
+
+  .big_content{
+
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px var(--black-color);
+    width: 100%;
+
+  }
+
+
+  /* .content_right,
+  .content_left{
+    height: 150px;
+  } */
+  .big_content .content_left{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .big_content .content_left img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 0.5s, filter 1.5s ease-in-out;
+    position: absolute;
+
+  }
+  .big_content:hover .content_left img {
+    transform: scale(103%);
+  }
+  .big_content .content_left p:first-of-type{
+    color: var(--red-color);
+    font-size: 20px;
+    font-family: istok;
+    margin-top: 20px;
+  }
+
+  .big_content .content_right h3{
+    color: var(--black-color);
+    font-size: 36px;
+    font-family: istok;
+    font-weight: 800;
+    margin: 10px 0;
+  }
+
+  .big_content .content_right p:last-of-type{
+    color: var(--black-color);
+    font-size: 17px;
+    font-family: istok;
+    margin: 25px 0;
+  }
+
+  .small_box_content{
+    display: flex;
+  }
+  .small_box_content img{
+    height: 40px;
+    width: 40px;
+  }
+  .small_box_content button{
+    padding: 10px;
+    background-color: var(--black-color);
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 2px solid var(--black-color);
+  }
+  .small_box_content button a{
+    color: var(--white-color);
+    font-family: istok;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+  }
+
+  .small_box_content button:hover{
+    background-color: var(--white-color);
+    transition: 0.5s;
+  }
+  .small_box_content button:hover a{
+    color: var(--black-color);
+    font-family: istok;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+
+
+  .content2 .sm_box{
+    padding: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px var(--black-color);
+    width: 100%;
+
+  }
+
+  /* ảnh của content nhỏ */
+  .content2 .sm_box .img{
+    width: 100%;
+    height: 100%;
+  }
+  .content2 .sm_box img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s, filter 1.5s ease-in-out;
+  }
+
+  .sm_box:hover .img img {
+    transform: scale(103%);
+  }
+
+  .content2 .divide{
+    display: flex;
+
+  }
+
+  .sm_box .divide{
+    display: flex;
+    position: relative;
+  }
+  .sm_box .divide img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+  }
+
+  /* icon figma */
+  .content2 .divide img{
+    width: 40px;
+    height: 40px;
+  }
+
+
+
+
+  .content2 .sm_box p{
+    color: var(--red-color);
+    font-size: 20px;
+    font-family: istok;
+    margin: 10px 0;
+  }
+
+  /* chỉnh chữ h3 to hơn */
+  .content2 .sm_box h3{
+    color: var(--black-color);
+    font-size: 30px;
+    font-family: istok;
+    font-weight: 800;
+    margin: 10px 0;
+  }
+
+
+  /* chỉnh chữ p của thẻ a */
+  .content2 .small_content .sm_box a{
+    color: var(--black-color);
+    font-size: 20px;
+    font-family: istok;
+    position: relative;
+    text-decoration: none;
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+  .content2 .sm_box a::before{
+    position: absolute;
+    content: "";
+    background-color: var(--black-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+  .content2 .small_content .sm_box a:hover {
+    color: var(--red-color);
+  }
+  .content2 .sm_box a:hover:before{
+    position: absolute;
+    content: "";
+    background-color: var(--red-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
+
+
+
+
 }
-.content2{
-  margin-bottom: 130px;
-}
-.content1{
-  margin-bottom: 72px;
-}
-
-.big_content{
-
-  padding: 30px;
-  border-radius: 10px;
-  border: 2px solid black;
-  box-shadow: 10px 10px 0px 0px var(--black-color);
-  width: 100%;
-
-}
 
 
-/* .content_right,
-.content_left{
-  height: 150px;
-} */
-.big_content .content_right{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.big_content .content_right img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 10px;
-  transition: transform 0.5s, filter 1.5s ease-in-out;
-  position: absolute;
+@media only screen and (max-width: 1024px){
+  .project_PC{
+    display: none;
+  }
+  .projects .high_text h1{
+    font-family: istok;
+    font-size: 50px;
+    text-align: center;
+    margin: 10% auto;
+    font-weight: 800;
+  }
+  .projects .container .row{
+    margin: 0;
+  }
+  .big_content{
 
-}
-.big_content:hover .content_right img {
-  transform: scale(103%);
-}
-.big_content .content_left p:first-of-type{
-  color: var(--red-color);
-  font-size: 20px;
-  font-family: istok;
-  margin-top: 20px;
-}
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px var(--black-color);
+    width: 100%;
 
-.big_content .content_left h3{
-  color: var(--black-color);
-  font-size: 36px;
-  font-family: istok;
-  font-weight: 800;
-  margin: 10px 0;
-}
+  }
 
-.big_content .content_left p:last-of-type{
-  color: var(--black-color);
-  font-size: 17px;
-  font-family: istok;
-  margin: 25px 0;
-}
+  .big_content .content_left{
+    width: 100%;
+    height: 100%;
 
-.small_box_content{
-  display: flex;
-}
-.small_box_content img{
-  height: 40px;
-  width: 40px;
-}
-.small_box_content button{
-  padding: 10px;
-  background-color: var(--black-color);
-  border-radius: 10px;
-  margin-left: 20px;
-  border: 2px solid var(--black-color);
-}
-.small_box_content button a{
-  color: var(--white-color);
-  font-family: istok;
-  font-size: 16px;
-  line-height: 100%;
-  text-decoration: none;
-}
-
-.small_box_content button:hover{
-  background-color: var(--white-color);
-  transition: 0.5s;
-}
-.small_box_content button:hover a{
-  color: var(--black-color);
-  font-family: istok;
-  font-size: 16px;
-  line-height: 100%;
-  text-decoration: none;
-  transition: 0.5s;
-}
+  }
 
 
+  .big_content .content_left img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 0.5s, filter 1.5s ease-in-out;
 
-.content2 .sm_box{
-  padding: 30px;
-  border-radius: 10px;
-  border: 2px solid black;
-  box-shadow: 10px 10px 0px 0px var(--black-color);
-  width: 100%;
+  }
+  .big_content:hover .content_left img {
+    transform: scale(103%);
+  }
+  .big_content .content_right p:first-of-type{
+    color: var(--red-color);
+    font-size: 18px;
+    font-family: istok;
+    margin-top: 3%;
+  }
 
-}
+  .big_content .content_right h3{
+    color: var(--black-color);
+    font-size: 30px;
+    font-family: istok;
+    font-weight: 800;
+    margin: 3% 0;
+  }
 
-/* ảnh của content nhỏ */
-.content2 .sm_box .img{
-  width: 100%;
-  height: 100%;
-}
-.content2 .sm_box img{
-  width: 100%;
-  height: 100%;
-  transition: transform 0.5s, filter 1.5s ease-in-out;
-}
+  .big_content .content_right p:last-of-type{
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: istok;
+    margin: 3% 0;
+  }
 
-.sm_box:hover .img img {
-  transform: scale(103%);
-}
+  .small_box_content{
+    display: flex;
+  }
+  .small_box_content img{
+    height: 40px;
+    width: 40px;
+  }
+  .small_box_content button{
+    padding: 2%;
+    background-color: var(--black-color);
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 2px solid var(--black-color);
+  }
+  .small_box_content button a{
+    color: var(--white-color);
+    font-family: istok;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+  }
 
-.content2 .divide{
-  display: flex;
-
-}
-
-.sm_box .divide{
-  display: flex;
-  position: relative;
-}
-.sm_box .divide img{
-  height: 35px;
-  width: 35px;
-  position: absolute;
-  right: 10%;
-  top: 20%;
-}
-
-/* icon figma */
-.content2 .divide img{
-  width: 40px;
-  height: 40px;
-}
-
-
-
-
-.content2 .sm_box p{
-  color: var(--red-color);
-  font-size: 20px;
-  font-family: istok;
-  margin: 10px 0;
-}
-
-/* chỉnh chữ h3 to hơn */
-.content2 .sm_box h3{
-  color: var(--black-color);
-  font-size: 30px;
-  font-family: istok;
-  font-weight: 800;
-  margin: 10px 0;
-}
-
-
-/* chỉnh chữ p của thẻ a */
-.content2 .small_content .sm_box a{
-  color: var(--black-color);
-  font-size: 20px;
-  font-family: istok;
-  position: relative;
-  text-decoration: none;
-}
+  .small_box_content button:hover{
+    background-color: var(--white-color);
+    transition: 0.5s;
+ 
+  }
+  .small_box_content button:hover a{
+    color: var(--black-color);
+    font-family: istok;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+    transition: 0.5s;
+  }
 
 
-/* hover vào thẻ p của thẻ a */
-.content2 .sm_box a::before{
-  position: absolute;
-  content: "";
-  background-color: var(--black-color);
-  height: 1px;
-  width: 100%;
-  bottom: 5px;
-  transform: translateY(-50%);
-}
+  .content2{
+    margin: 10% 0;
+  }
+
+  .content2 .sm_box{
+
+    padding: 35px;
+
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px var(--black-color);
+    width: 100%;
+
+  }
+
+  /* ảnh của content nhỏ */
+  .content2 .sm_box .img{
+    width: 100%;
+    height: 100%;
+  }
+  .content2 .sm_box img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s, filter 1.5s ease-in-out;
+  }
+
+  .sm_box:hover .img img {
+    transform: scale(103%);
+  }
+
+  .content2 .divide{
+    display: flex;
+
+  }
+
+  .sm_box .divide{
+    display: flex;
+    position: relative;
+  }
+  .sm_box .divide img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 10%;
+    top: 95%;
+  }
+
+  /* icon figma */
+  .content2 .divide img{
+    width: 40px;
+    height: 40px;
+  }
+  .content2 .divide h3{
+    font-size: 25px;
+
+  }
 
 
-/* hover vào thẻ p của thẻ a */
-.content2 .small_content .sm_box a:hover {
-  color: var(--red-color);
-}
-.content2 .sm_box a:hover:before{
-  position: absolute;
-  content: "";
-  background-color: var(--red-color);
-  height: 1px;
-  width: 100%;
-  bottom: 5px;
-  transform: translateY(-50%);
-}
+
+  .content2 .sm_box p{
+    color: var(--red-color);
+    font-size: 20px;
+    font-family: istok;
+    margin: 10px 0;
+  }
+
+  /* chỉnh chữ h3 to hơn */
+  .content2 .sm_box h3{
+    color: var(--black-color);
+    font-size: 30px;
+    font-family: istok;
+    font-weight: 800;
+    margin: 3% 0;
+  }
 
 
-.projects .high_text h1{
-  font-family: istok;
-  font-size: 80px;
-  text-align: center;
-  margin: 72px 10%;
-  font-weight: 800;
+  /* chỉnh chữ p của thẻ a */
+  .content2 .small_content .sm_box a{
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: istok;
+    position: relative;
+    text-decoration: none;
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+  .content2 .sm_box a::before{
+    position: absolute;
+    content: "";
+    background-color: var(--black-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+  .content2 .small_content .sm_box a:hover {
+    color: var(--red-color);
+  }
+  .content2 .sm_box a:hover:before{
+    position: absolute;
+    content: "";
+    background-color: var(--red-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
 }

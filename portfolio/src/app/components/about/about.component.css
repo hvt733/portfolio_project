@@ -1,4 +1,10 @@
-/* Biography */
+
+
+@media only screen and (min-width: 1024px){
+  .about_MB{
+    display: none;
+  }
+  /* Biography */
 .biography{
   margin-top: 72px;
 }
@@ -12,7 +18,7 @@
   font-family: istok;
   font-size: 80px;
   text-align: center;
-  margin-bottom: 72px;
+  margin-bottom: 10%;
   font-weight: 800;
 }
 
@@ -861,4 +867,584 @@
     transform: translateX(-10px);
   }
 }
+}
 
+@media only screen and (max-width: 1024px){
+  .about_PC{
+    display: none;
+  }
+  .biography{
+    margin-top: 72px;
+  }
+
+
+  .about_MB .biography .hight_text h1{
+    font-family: istok;
+    font-size: 60px;
+    text-align: center;
+    margin: 10% auto;
+    font-weight: 800;
+  }
+
+  .about_MB .left h3{
+    color: #515151;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 5%;
+  }
+  /* mid */
+
+  .about_MB .mid{
+    padding: 30px;
+    background-color: var(--white-color);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 90%;
+    box-shadow: 10px 10px 0px 0px black;
+    margin-bottom: 10%;
+  }
+  .mid {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5%;
+  }
+  .mid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+   .left h3{
+    color: #515151;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 16px;
+  }
+  .left span{
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: istok;
+  }
+  .left p{
+    /* padding-right: 40px; */
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: istok;
+    margin-bottom: 25px;
+    justify-content: center;
+    text-align: justify;
+  }
+
+
+
+
+  .right h3{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: istok;
+    text-align: center;
+  }
+
+  .right p{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: istok;
+    text-align: center;
+  }
+
+
+  /* .right{
+    display: inline-block;
+    width: 100%;
+  } */
+
+
+
+  .hight_text h1{
+    animation: fadeIn 1.5s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  .animation {
+    animation: fadeIn 1s ease-in-out;
+  }
+  @property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  .r_complete  h3 ,
+  .r_template h3 {
+    animation: counter 5s forwards ;
+    counter-reset: num var(--num);
+
+  }
+  .r_complete  h3::before ,
+  .r_template h3::before {
+    content: counter(num);
+  }
+
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 20;
+    }
+  }
+  /* SKILLS */
+
+  .skills{
+    margin: 20% 0 20% 0;
+  }
+  .skills .high_text h1{
+    font-family: istok;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .skills .high_text p{
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: istok;
+    margin: 48px 0 24px 0;
+    text-align: center;
+  }
+
+  .skills .high_text span{
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: istok;
+  }
+
+
+  .skills .sm_box{
+    padding: 25px;
+    background-color: var(--white-color);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 7px 0px 0px black;
+    margin: 20px;
+
+  }
+
+  .skills .sm_box img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 45px;
+    width: 45px;
+  }
+
+  .skills .sm_box h3{
+    text-align: center;
+    font-family: istok;
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 800;
+  }
+
+  .skills .sm_box p{
+    text-align: center;
+    font-family: istok;
+    font-size: 16px;
+    color: rgb(0,0,0,0.65);
+
+  }
+
+
+  /* hỏi a thành */
+  /* Exprience */
+
+  .experience{
+    background-image: url("../../../assets/img/experience/background_expe.png");
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    margin-bottom: 80px;
+  }
+  .experience .high_text h1{
+    font-family: istok;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 800;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* timeline */
+
+  .experience .timeline .left_container{
+    left: 0%;
+  }
+  .experience .timeline .right_container{
+    left: 50%;
+  }
+
+
+  .experience .timeline .container{
+    margin: 0;
+    position: relative;
+    width: 50%;
+    padding: 10px 50px;
+    /* animation: movedown 1s linear forwards; */
+    /* z-index: 9999; */
+    /* opacity: 0; */
+  }
+  /* @keyframes movedown {
+    0%{
+      opacity: 1;
+
+    }
+    100%{
+      opacity: 1;
+
+    }
+  } */
+
+
+
+
+
+
+
+
+
+
+
+  /* logo */
+  .logo1_ani{
+    opacity: 0;
+    animation: logo1 1s forwards;
+    animation-delay: 0s;
+  }
+
+  @keyframes logo1 {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  .timeline .container:nth-child(2) .logo{
+    opacity: 0;
+  }
+
+  .logo2_ani{
+    animation: logo2 1s forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes logo2 {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+
+  .timeline .container:nth-child(3) .logo{
+    opacity: 0;
+  }
+
+  .logo3_ani{
+    animation: logo3 1s forwards;
+    animation-delay: 2.25s;
+  }
+
+  @keyframes logo3 {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  /* .................................... */
+
+
+  .timeline .container:nth-child(1) .anima1{
+    opacity: 0;
+  }
+  .anima1_run{
+    animation: anima1 1s linear forwards;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes anima1 {
+    0%{
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(10px);
+    }
+  }
+
+  .timeline .container:nth-child(2) .anima2{
+    opacity: 0;
+  }
+  .anima2_run{
+    animation: anima2 1s linear forwards;
+    animation-delay: 1.5s;
+  }
+
+  @keyframes anima2 {
+    0%{
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(-10px);
+    }
+  }
+
+
+  .timeline .container:nth-child(3) .anima3{
+    opacity: 0;
+  }
+  .anima3_run{
+    animation: anima3 1s linear forwards;
+    animation-delay: 2.5s;
+  }
+
+  @keyframes anima3 {
+    0%{
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(10px);
+    }
+  }
+
+
+  /* .timeline .container:nth-child(3){
+    animation-delay: 2s;
+  } */
+
+  /* ................................ */
+
+
+  .experience .timeline .text_box_left .logo{
+    position: absolute;
+    left: 97%;
+    top: 7%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 0px 0px black;
+    padding: 5px 5px 3px 5px;
+    z-index: 999;
+  }
+
+
+  .experience .timeline .text_box_right .logo{
+    position: absolute;
+    left: -3%;
+    top: 7%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 0px 0px black;
+    padding: 5px 5px 3px 5px;
+    z-index: 999;
+  }
+  .experience .timeline img{
+
+    height: 100%;
+    width: auto;
+  }
+
+
+  .experience .timeline .left_container{
+
+    position: relative;
+  }
+  .experience .timeline .left_container:before{
+    position: absolute;
+    left: 109%;
+    top: 0;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 0px 0px black;
+    padding: 7px;
+  }
+
+  /*
+  .timeline .right_container:first-child::before{
+    position: absolute;
+    height: 65%;
+    width: 5px;
+    top: 42%;
+    left: 0;
+
+    content: "";
+    background-color: white;
+  }
+  .timeline .left_container::after{
+    position: absolute;
+    height: 78%;
+    width: 5px;
+    top: 28%;
+    right: -5px;
+    content: "";
+    background-color: white;
+  } */
+
+
+
+
+  .experience .text_box_right h3,
+  .experience .text_box_left h3{
+    font-weight: 800;
+    font-size: 24px;
+    font-family: istok;
+  }
+  .experience .text_box_right span,
+  .experience .text_box_left span{
+    color:#C94440;
+  }
+  .experience .text_box_right p:first-of-type,
+  .experience .text_box_left p:first-of-type{
+    font-size: 15px;
+    color: rgb(0,0,0,0.55);
+    margin: 10px 0;
+    font-family: istok;
+  }
+  .experience .text_box_right p:last-of-type,
+  .experience .text_box_left p:last-of-type{
+    font-size: 15px;
+    color: rgb(0,0,0);
+    font-family: istok;
+  }
+
+
+  .experience .timeline .anima1,
+  .experience .timeline .anima2,
+  .experience .timeline .anima3{
+    position: relative;
+    background-color: white;
+    padding: 24px;
+    box-shadow: 6px 5px 0px 0px black;
+    border-radius: 10px;
+
+  }
+
+
+  .experience .left_arrow{
+    height: 0;
+    width: 0px;
+    position: absolute;
+    top: 7%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+    right: -14px;
+  }
+
+
+
+
+  .experience .left_arrow_b{
+    height: 0;
+    width: 0px;
+    position: absolute;
+    top: 10%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid black;
+    right: -15px;
+
+  }
+
+  .experience .right_arrow{
+    height: 0;
+    width: 0px;
+    position: absolute;
+    top: 7%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+    transform: rotate(180deg);
+    left: -13px;
+  }
+
+
+
+
+  .experience .right_arrow_b{
+    height: 0;
+    width: 0px;
+    position: absolute;
+    top: 9%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid black;
+    transform: rotate(180deg);
+    left: -14px;
+
+  }
+
+
+  .experience .timeline_ani::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 70%;
+    top: 5%;
+    background-color: white;
+    left: 50%;
+    margin-left: 0;
+    z-index: 1;
+    animation: movee 2.5s linear forwards;
+  }
+
+
+
+  @keyframes movee {
+    0%{
+      height: 0;
+    }
+    100%{
+      height: 70%;
+    }
+  }
+
+}
