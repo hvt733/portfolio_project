@@ -9,3 +9,9 @@ export class HeaderComponent {
 
 }
 
+window.onload=function(){
+  const open_nav_left = document.getElementById("nav_left")
+  open_nav_left?.addEventListener('click',function(){
+    open_nav_left?.classList.add("open_nav");
+  })
+}

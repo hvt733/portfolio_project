@@ -12,6 +12,7 @@ export class ContactComponent {
 
 
 window.onload=function(){
+
   const item=document.getElementById("small_box")
   let btn_form = document.getElementById("btn")
   btn_form?.addEventListener('click',function(){
@@ -115,7 +116,12 @@ window.onscroll= function(){
     content?.classList.add("show")
   }
 
+  var content = document.getElementById("webbb_MB" );
+  if(document.documentElement.scrollTop >= 100){
+    content?.classList.add("show")
+  }
 
+  // animation timeline PC
   var anima1=document.getElementById("anima1")
   var anima2=document.getElementById("anima2")
   var anima3=document.getElementById("anima3")
@@ -133,7 +139,43 @@ window.onscroll= function(){
     timeline?.classList.add("timeline_ani")
   }
 
+  // animation timeline MB
+  var anima1=document.getElementById("anima1_MB")
+  var anima2=document.getElementById("anima2_MB")
+  var anima3=document.getElementById("anima3_MB")
+  var logo1=document.getElementById("logo1_MB")
+  var logo2=document.getElementById("logo2_MB")
+  var logo3=document.getElementById("logo3_MB")
+  var timeline=document.getElementById("timeline_MB")
+  if(document.documentElement.scrollTop >= 130){
+    anima1?.classList.add("anima1_run_MB")
+    anima2?.classList.add("anima2_run_MB")
+    anima3?.classList.add("anima3_run_MB")
+    logo1?.classList.add("logo1_ani_MB")
+    logo2?.classList.add("logo2_ani_MB")
+    logo3?.classList.add("logo3_ani_MB")
+    timeline?.classList.add("timeline_ani_MB")
+  }
 
+  // animation timeline MBB (tablet maybe)
+  var anima1=document.getElementById("anima1_MBB")
+  var anima2=document.getElementById("anima2_MBB")
+  var anima3=document.getElementById("anima3_MBB")
+  var logo1=document.getElementById("logo1_MBB")
+  var logo2=document.getElementById("logo2_MBB")
+  var logo3=document.getElementById("logo3_MBB")
+  var timeline=document.getElementById("timeline_MBB")
+  if(document.documentElement.scrollTop >= 1300){
+    anima1?.classList.add("anima1_run_MBB")
+    anima2?.classList.add("anima2_run_MBB")
+    anima3?.classList.add("anima3_run_MBB")
+    logo1?.classList.add("logo1_ani_MBB")
+    logo2?.classList.add("logo2_ani_MBB")
+    logo3?.classList.add("logo3_ani_MBB")
+    timeline?.classList.add("timeline_ani_MBB")
+  }
+
+  // edu PC
   var edu_before=document.getElementById("edu")
   var nutdo1=document.getElementById("nutdo1")
   var anh1=document.getElementById("anh1")
@@ -163,4 +205,68 @@ window.onscroll= function(){
     small_content4?.classList.add("small4_ani")
   }
 
+
+
+  // edu MB
+  var edu_before=document.getElementById("edu_MB")
+  var nutdo1=document.getElementById("nutdo1_MB")
+  var anh1=document.getElementById("anh1_MB")
+  var nutdo2=document.getElementById("nutdo2_MB")
+  var anh2=document.getElementById("anh2_MB")
+  var nutdo3=document.getElementById("nutdo3_MB")
+  var anh3=document.getElementById("anh3_MB")
+  var nutdo4=document.getElementById("nutdo4_MB")
+  var anh4=document.getElementById("anh4_MB")
+  var small_content1=document.getElementById("small_content1_MB")
+  var small_content2=document.getElementById("small_content2_MB")
+  var small_content3=document.getElementById("small_content3_MB")
+  var small_content4=document.getElementById("small_content4_MB")
+  if(document.documentElement.scrollTop >= 2220){
+    edu_before?.classList.add("edu_ani_MB")
+    nutdo1?.classList.add("nutdo1_ani_MB")
+    anh1?.classList.add("nutdo1_ani_MB")
+    nutdo2?.classList.add("nutdo2_ani_MB")
+    anh2?.classList.add("nutdo2_ani_MB")
+    nutdo3?.classList.add("nutdo3_ani_MB")
+    anh3?.classList.add("nutdo3_ani_MB")
+    nutdo4?.classList.add("nutdo4_ani_MB")
+    anh4?.classList.add("nutdo4_ani_MB")
+    small_content1?.classList.add("small1_ani_MB")
+    small_content2?.classList.add("small2_ani_MB")
+    small_content3?.classList.add("small3_ani_MB")
+    small_content4?.classList.add("small4_ani_MB")
+
+
+  }
+  // edu TABLET
+  var edu_before=document.getElementById("edu_TABLET")
+  var nutdo1=document.getElementById("nutdo1_TABLET")
+  var anh1=document.getElementById("anh1_TABLET")
+  var nutdo2=document.getElementById("nutdo2_TABLET")
+  var anh2=document.getElementById("anh2_TABLET")
+  var nutdo3=document.getElementById("nutdo3_TABLET")
+  var anh3=document.getElementById("anh3_TABLET")
+  var nutdo4=document.getElementById("nutdo4_TABLET")
+  var anh4=document.getElementById("anh4_TABLET")
+  var small_content1=document.getElementById("small_content1_TABLET")
+  var small_content2=document.getElementById("small_content2_TABLET")
+  var small_content3=document.getElementById("small_content3_TABLET")
+  var small_content4=document.getElementById("small_content4_TABLET")
+  if(document.documentElement.scrollTop >= 2220){
+    edu_before?.classList.add("edu_ani_TABLET")
+    nutdo1?.classList.add("nutdo1_ani_TABLET")
+    anh1?.classList.add("nutdo1_ani_TABLET")
+    nutdo2?.classList.add("nutdo2_ani_TABLET")
+    anh2?.classList.add("nutdo2_ani_TABLET")
+    nutdo3?.classList.add("nutdo3_ani_TABLET")
+    anh3?.classList.add("nutdo3_ani_TABLET")
+    nutdo4?.classList.add("nutdo4_ani_TABLET")
+    anh4?.classList.add("nutdo4_ani_TABLET")
+    small_content1?.classList.add("small1_ani_TABLET")
+    small_content2?.classList.add("small2_ani_TABLET")
+    small_content3?.classList.add("small3_ani_TABLET")
+    small_content4?.classList.add("small4_ani_TABLET")
+
+
+  }
 }

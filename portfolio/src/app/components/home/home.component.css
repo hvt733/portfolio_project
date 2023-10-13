@@ -29,7 +29,7 @@
   .home_MB .box_text_right .col-12:nth-of-type(2) p{
 
     font-family: istok;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     /* color: rgb(24, 24, 24,64%); */
     color: var(--a1818186a-color);
@@ -126,7 +126,7 @@
 
 
   .home_MB .box_bottom{
-    margin-top: 5%;
+    margin: 10% 0%;
 
   }
 
@@ -139,82 +139,6 @@
 
 
 
-  .home_MB .circle{
-    position: relative;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: flex;
-    background-color: var(--black-color);
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.3s;
-    margin: 0 auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
-  }
-  .home_MB .circle:hover{
-    background-color: var(--white-color);
-  }
-
-  .home_MB .circle a{
-    font-family: day_one;
-    position: absolute;
-    font-size: 20px;
-    color: var(--white-color);
-    text-decoration: none;
-
-  }
-
-  .home_MB .circle:hover a{
-    font-family: day_one;
-    font-size: 20px;
-    color: var(--black-color);
-
-  }
-
-
-  .home_MB .circle .spin{
-    height: 175px;
-    width: auto;
-    z-index: -1;
-  }
-  .circle .spin img{
-    width: auto;
-    height: 100%;
-    animation: rotate 10s linear infinite;
-  }
-  @keyframes rotate {
-    0%{
-      transform: rotate(360deg);
-    }
-    100%{
-      transform: rotate(0deg);
-    }
-  }
-
-  .home_MB .home .light{
-    position: absolute;
-    left: 50%;
-    top: -5%;
-    transform: translate(-50%, 50%);
-    width: 120px;
-    height: 120px;
-  }
-
-  .home_MB .home .light img{
-    width: auto;
-    height: 100%;
-  }
-  .home_MB .box_bottom .bb_left p{
-    font-family: day_one;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 1.5;
-    color: var(--white-color);
-    letter-spacing: 3px;
-    margin-right: 5%;
-  }
 }
 
 

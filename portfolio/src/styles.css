@@ -19,12 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-.dark-mode{
-  background-color: black;
-  color: white;
-}
-
 li{
 	list-style: none;
 }
@@ -32,6 +26,24 @@ li{
 a{
 	text-decoration: none;
 }
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+
 /* @font-face {
 	font-family: abe;
 	src: url("");
@@ -92,6 +104,7 @@ a{
 
 
 body {
+  position: relative;
   overflow-y: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -99,22 +112,8 @@ body {
 }
 
 /* Hiển thị thanh cuộn trên các trình duyệt khác */
-body::-webkit-scrollbar {
-  width: 0.5em;
-
-}
-
-body::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
 
 
 .container{
   max-width: 1224px;
 }
-
-
