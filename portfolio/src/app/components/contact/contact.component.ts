@@ -202,22 +202,22 @@ window.onscroll= function(){
   }
 
   // animation timeline MBB (tablet maybe)
-  var anima1=document.getElementById("anima1_MBB")
-  var anima2=document.getElementById("anima2_MBB")
-  var anima3=document.getElementById("anima3_MBB")
-  var logo1=document.getElementById("logo1_MBB")
-  var logo2=document.getElementById("logo2_MBB")
-  var logo3=document.getElementById("logo3_MBB")
-  var timeline=document.getElementById("timeline_MBB")
-  if(document.documentElement.scrollTop >= 1300){
-    anima1?.classList.add("anima1_run_MBB")
-    anima2?.classList.add("anima2_run_MBB")
-    anima3?.classList.add("anima3_run_MBB")
-    logo1?.classList.add("logo1_ani_MBB")
-    logo2?.classList.add("logo2_ani_MBB")
-    logo3?.classList.add("logo3_ani_MBB")
-    timeline?.classList.add("timeline_ani_MBB")
-  }
+  // var anima1=document.getElementById("anima1_MBB")
+  // var anima2=document.getElementById("anima2_MBB")
+  // var anima3=document.getElementById("anima3_MBB")
+  // var logo1=document.getElementById("logo1_MBB")
+  // var logo2=document.getElementById("logo2_MBB")
+  // var logo3=document.getElementById("logo3_MBB")
+  // var timeline=document.getElementById("timeline_MBB")
+  // if(document.documentElement.scrollTop >= 1300){
+  //   anima1?.classList.add("anima1_run_MBB")
+  //   anima2?.classList.add("anima2_run_MBB")
+  //   anima3?.classList.add("anima3_run_MBB")
+  //   logo1?.classList.add("logo1_ani_MBB")
+  //   logo2?.classList.add("logo2_ani_MBB")
+  //   logo3?.classList.add("logo3_ani_MBB")
+  //   timeline?.classList.add("timeline_ani_MBB")
+  // }
 
   // edu PC
   var edu_before=document.getElementById("edu")

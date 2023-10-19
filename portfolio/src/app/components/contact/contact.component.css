@@ -40,6 +40,8 @@
     left: 0;
     content: url(../../../assets/img/contact_img.png);
     top: 0;
+    width: 100%;
+    height: auto;
     transform: translate(-11%,-5%);
   }
   .form_message .form{
@@ -814,16 +816,23 @@
     left: 50%;
     transform: translateX(-50%);
     width: 60%;
-    margin: 5% 0;
+    margin: 10% 0;
   }
-  .form_message::before{
+  /* .form_message::before{
     position: absolute;
     left: 0;
     content: url(../../../assets/img/contact_img.png);
     transform: translate(-10%);
+
+  } */
+  .form_message img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
   }
   .form_message .form{
-    padding: 35px;
+    padding: 20px;
     background-color: var(--white-color);
     border: 1px solid rgb(0,0,0, 50%);
     box-shadow: 10px 10px 0px 0px black;
@@ -883,10 +892,10 @@
 
 
   .form_message .form h3{
-    font-size: 24px;
+    font-size: 20px;
     font-family: istok;
     color: var(--black-color);
-    text-align: justify;
+    /* text-align: justify; */
     font-weight: 800;
 
   }
@@ -915,12 +924,10 @@
   }
 
   .form_message .form .form_group:last-of-type input{
-    padding-bottom: 30px;
+    padding-bottom: 10%;
   }
 
-  .form_message .form .form_group:last-of-type input{
-    padding-bottom: 30px;
-  }
+
   input:focus,
   textarea:focus {
     outline: none;
@@ -928,7 +935,7 @@
   }
 
   .form_message .form button{
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     background-color: var(--red-color) ;
     border-radius: 10px;
@@ -1070,7 +1077,7 @@
   } */
   .faq .high_text h1{
     font-family: istok;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 40px;
     font-weight: 800;
@@ -1258,7 +1265,7 @@
     border-radius: 50px;
     /* font-size: 20px; */
     border: 1px solid var(--black-color);
-    cursor: pointer;    
+    cursor: pointer;
   }
 
   .first_button_MB button h3{

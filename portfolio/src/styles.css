@@ -42,7 +42,9 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
-
+body{
+  overflow-x: hidden;
+}
 
 /* @font-face {
 	font-family: abe;
@@ -117,3 +119,5 @@ body {
 .container{
   max-width: 1224px;
 }
+
+

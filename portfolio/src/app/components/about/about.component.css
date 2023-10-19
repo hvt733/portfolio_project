@@ -1112,11 +1112,6 @@
   }
 
 
-  /* .right{
-    display: inline-block;
-    width: 100%;
-  } */
-
 
 
   .hight_text h1{
@@ -2008,7 +2003,7 @@
     position: absolute;
     content: "";
     background-color: white;
-    height: 70%;
+    height: 70px;
     width: 6px;
     left: 10%;
     top: 9%;
@@ -2020,7 +2015,7 @@
     0%{
       height: 0%;
     }100%{
-      height: 70%;
+      height: 50%;
     }
   }
 
@@ -2205,6 +2200,25 @@
   }
 
 /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* education */
   .education .hight_textt{

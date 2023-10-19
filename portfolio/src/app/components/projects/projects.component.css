@@ -240,7 +240,7 @@
   }
   .projects .high_text h1{
     font-family: istok;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin: 10% auto;
     font-weight: 800;
@@ -295,7 +295,7 @@
     color: var(--black-color);
     font-size: 16px;
     font-family: istok;
-    margin: 3% 0;
+    margin: 5% 0;
   }
 
   .small_box_content{
