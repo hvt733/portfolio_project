@@ -426,7 +426,7 @@
 
   .nav_right .circle{
     position: relative;
-    left: 40%;
+    left: 35%;
     height: 65px;
     width: 65px;
     border-radius: 50%;
@@ -466,9 +466,9 @@
   }
   .circle .spin img{
     position: relative;
-    top: 10%;
+    top: 15%;
     width: auto;
-    height: 78%;
+    height: 70%;
     animation: rotate 10s linear infinite;
     transform: translateX(-50%);
   }

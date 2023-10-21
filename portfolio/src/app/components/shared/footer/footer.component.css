@@ -73,7 +73,11 @@
     text-align: center;
   }
 }
-
+.border_footer{
+  height: 3px;
+  width: 100%;
+  background-color: red;
+}
 
 @media only screen and (max-width: 1024px){
   .footer_PC{
