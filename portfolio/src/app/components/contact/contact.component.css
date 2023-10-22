@@ -193,7 +193,7 @@
 
   /* faq */
   .faq{
-    margin-bottom: 20%;
+    margin-bottom: 5%;
   }
   .faq .small_content{
     display: inline-block;
@@ -1050,7 +1050,7 @@
     display: none;
   }
 
-  #small_box_mb{
+  .small_box_mb{
     padding-top: 20px;
   }
 
