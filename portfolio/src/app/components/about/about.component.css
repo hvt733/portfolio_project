@@ -1254,16 +1254,10 @@
     left: 10%;
     top: 5%;
     transform: translateX(-50%);
-    animation: moveline 3s linear forwards;
+    animation: moveline1 3s linear forwards;
   }
 
-  @keyframes moveline{
-    0%{
-      height: 0%;
-    }100%{
-      height: 65%;
-    }
-  }
+
 
 
 
@@ -1493,12 +1487,21 @@
 
 
 
+  @keyframes moveline1 {
+    0%{
+      height: 0;
+    }
+    100%{
+      height: 65%;
+    }
+  }
+
   @keyframes moveline {
     0%{
       height: 0;
     }
     100%{
-      height: 85%;
+      height: 82%;
     }
   }
 
@@ -2004,10 +2007,10 @@
     content: "";
     background-color: white;
     height: 70px;
-    width: 6px;
-    left: 10%;
-    top: 9%;
-    transform: translateX(-50%);
+    width: 7px;
+    left: 11.5%;
+    top: 7%;
+    transform: translateX(-55%);
     animation: moveline1 3s linear forwards;
   }
 
@@ -2136,7 +2139,7 @@
   .timeline_TABLET .container:nth-child(1) .anima1_TABLET{
     opacity: 0;
   }
-  
+
   .anima1_run_TABLET{
     animation: anima1 1s linear forwards;
   }
@@ -2155,7 +2158,7 @@
   .timeline_TABLET .container:nth-child(2) .anima2_TABLET{
     opacity: 0;
   }
-  
+
   .anima2_run_TABLET{
     animation: anima2 1s linear forwards;
   }
@@ -2178,7 +2181,7 @@
   .timeline_TABLET .container:nth-child(3) .anima3_TABLET{
     opacity: 0;
   }
-  
+
   .anima3_run_TABLET{
     animation: anima3 1s linear forwards;
   }
@@ -2299,7 +2302,7 @@
       height: 0;
     }
     100%{
-      height: 85%;
+      height: 82%;
     }
   }
 
