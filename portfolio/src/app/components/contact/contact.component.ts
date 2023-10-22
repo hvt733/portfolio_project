@@ -184,40 +184,39 @@ window.onscroll= function(){
   }
 
   // animation timeline MB
-  var anima1=document.getElementById("anima1_MB")
-  var anima2=document.getElementById("anima2_MB")
-  var anima3=document.getElementById("anima3_MB")
-  var logo1=document.getElementById("logo1_MB")
-  var logo2=document.getElementById("logo2_MB")
-  var logo3=document.getElementById("logo3_MB")
-  var timeline=document.getElementById("timeline_MB")
-  if(document.documentElement.scrollTop >= 130){
-    anima1?.classList.add("anima1_run_MB")
-    anima2?.classList.add("anima2_run_MB")
-    anima3?.classList.add("anima3_run_MB")
-    logo1?.classList.add("logo1_ani_MB")
-    logo2?.classList.add("logo2_ani_MB")
-    logo3?.classList.add("logo3_ani_MB")
-    timeline?.classList.add("timeline_ani_MB")
+  var anima1_MB=document.getElementById("anima1_MB")
+  var anima2_MB=document.getElementById("anima2_MB")
+  var anima3_MB=document.getElementById("anima3_MB")
+  var logo1_MB=document.getElementById("logo1_MB")
+  var logo2_MB=document.getElementById("logo2_MB")
+  var logo3_MB=document.getElementById("logo3_MB")
+  var timeline_MB=document.getElementById("timeline_MB")
+  if(document.documentElement.scrollTop >= 3000){
+    anima1_MB?.classList.add("anima1_run_MB")
+    anima2_MB?.classList.add("anima2_run_MB")
+    anima3_MB?.classList.add("anima3_run_MB")
+    logo1_MB?.classList.add("logo1_ani_MB")
+    logo2_MB?.classList.add("logo2_ani_MB")
+    logo3_MB?.classList.add("logo3_ani_MB")
+    timeline_MB?.classList.add("timeline_ani_MB")
   }
 
-  // animation timeline MBB (tablet maybe)
-  // var anima1=document.getElementById("anima1_MBB")
-  // var anima2=document.getElementById("anima2_MBB")
-  // var anima3=document.getElementById("anima3_MBB")
-  // var logo1=document.getElementById("logo1_MBB")
-  // var logo2=document.getElementById("logo2_MBB")
-  // var logo3=document.getElementById("logo3_MBB")
-  // var timeline=document.getElementById("timeline_MBB")
-  // if(document.documentElement.scrollTop >= 1300){
-  //   anima1?.classList.add("anima1_run_MBB")
-  //   anima2?.classList.add("anima2_run_MBB")
-  //   anima3?.classList.add("anima3_run_MBB")
-  //   logo1?.classList.add("logo1_ani_MBB")
-  //   logo2?.classList.add("logo2_ani_MBB")
-  //   logo3?.classList.add("logo3_ani_MBB")
-  //   timeline?.classList.add("timeline_ani_MBB")
-  // }
+  var anima1_tablet=document.getElementById("anima1_TABLET")
+  var anima2_tablet=document.getElementById("anima2_TABLET")
+  var anima3_tablet=document.getElementById("anima3_TABLET")
+  var logo1_tablet=document.getElementById("logo1_TABLET")
+  var logo2_tablet=document.getElementById("logo2_TABLET")
+  var logo3_tablet=document.getElementById("logo3_TABLET")
+  var timeline=document.getElementById("timeline_TABLET")
+  if(document.documentElement.scrollTop >= 1300){
+    anima1_tablet?.classList.add("anima1_run_TABLET")
+    anima2_tablet?.classList.add("anima2_run_TABLET")
+    anima3_tablet?.classList.add("anima3_run_TABLET")
+    logo1_tablet?.classList.add("logo1_ani_TABLET")
+    logo2_tablet?.classList.add("logo2_ani_TABLET")
+    logo3_tablet?.classList.add("logo3_ani_TABLET")
+    timeline?.classList.add("timeline_ani_TABLET")
+  }
 
   // edu PC
   var edu_before=document.getElementById("edu")
@@ -296,7 +295,8 @@ window.onscroll= function(){
   var small_content2=document.getElementById("small_content2_TABLET")
   var small_content3=document.getElementById("small_content3_TABLET")
   var small_content4=document.getElementById("small_content4_TABLET")
-  if(document.documentElement.scrollTop >= 2220){
+  if(document.documentElement.scrollTop >= 3800){
+    console.log(edu_before)
     edu_before?.classList.add("edu_ani_TABLET")
     nutdo1?.classList.add("nutdo1_ani_TABLET")
     anh1?.classList.add("nutdo1_ani_TABLET")
