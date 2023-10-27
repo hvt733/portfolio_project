@@ -1020,7 +1020,7 @@
 
 
 
-@media only screen and (min-width: 478px) and (max-width: 1024px){
+@media only screen and (min-width: 600px) and (max-width: 1024px){
   .about_PC{
     display: none;
   }
@@ -1253,7 +1253,7 @@
     width: 8px;
     left: 10%;
     top: 5%;
-    transform: translateX(-65%);
+    transform: translateX(-68%);
     animation: moveline1 3s linear forwards;
   }
 
@@ -1265,7 +1265,7 @@
     margin-bottom: 5%;
     position: relative;
     left: 2px;
-    transform: translateX(4%);
+    transform: translateX(5%);
   }
 
   .about_MB .anima1_MB,
@@ -1773,7 +1773,7 @@
 
 
 
-@media only screen and (max-width: 477px) {
+@media only screen and (max-width: 599px) {
   .about_MB{
     display: none;
   }
@@ -2008,9 +2008,9 @@
     background-color: white;
     height: 70px;
     width: 9px;
-    left: 16%;
+    left: 15%;
     top: 3%;
-    transform: translateX(-50%);
+    transform: translateX(-40%);
     animation: moveline1 3s linear forwards;
   }
 
