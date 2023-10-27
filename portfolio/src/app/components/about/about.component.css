@@ -1020,7 +1020,7 @@
 
 
 
-@media only screen and (min-width: 600px) and (max-width: 1024px){
+@media only screen and (min-width: 478px) and (max-width: 1024px){
   .about_PC{
     display: none;
   }
@@ -1250,10 +1250,10 @@
     content: "";
     background-color: var(--white-color);
     height: 70%;
-    width: 7px;
+    width: 8px;
     left: 10%;
     top: 5%;
-    transform: translateX(-50%);
+    transform: translateX(-65%);
     animation: moveline1 3s linear forwards;
   }
 
@@ -1264,8 +1264,8 @@
   .about_MB .timeline_MB .right_container_MB{
     margin-bottom: 5%;
     position: relative;
-    left: 0%;
-    transform: translateX(5%);
+    left: 2px;
+    transform: translateX(4%);
   }
 
   .about_MB .anima1_MB,
@@ -1353,7 +1353,7 @@
   }
   .about_MB .timeline_MB .container{
     width: 70%;
-    padding: 10px 0px;
+    padding: 10px;
   }
 
 
@@ -1492,7 +1492,7 @@
       height: 0;
     }
     100%{
-      height: 65%;
+      height: 68%;
     }
   }
 
@@ -1773,7 +1773,7 @@
 
 
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 477px) {
   .about_MB{
     display: none;
   }
@@ -2007,10 +2007,10 @@
     content: "";
     background-color: white;
     height: 70px;
-    width: 7px;
-    left: 11.5%;
-    top: 7%;
-    transform: translateX(-55%);
+    width: 9px;
+    left: 16%;
+    top: 3%;
+    transform: translateX(-50%);
     animation: moveline1 3s linear forwards;
   }
 
@@ -2104,9 +2104,9 @@
     border-radius: 50%;
     background-color: white;
     box-shadow: 0px 4px 0px 0px black;
-    padding: 7px 8px 3px 8px;
+    padding: 5px 5px 3px 5px;
     z-index: 999;
-    transform: translateX(-50%);
+    transform: translateX(-45%);
 
   }
   .about_TABLET .text_box_right_TABLET .logo_TABLET img{
@@ -2115,7 +2115,7 @@
     width: auto;
   }
   .about_TABLET .timeline_TABLET .container{
-    width: 70%;
+    width: 60%;
     padding: 10px;
   }
 
@@ -2123,12 +2123,12 @@
 
   .about_TABLET .text_box_right_TABLET .logo_TABLET{
     position: absolute;
-    left: -15%;
+    left: -16%;
     top: 7%;
     border-radius: 50%;
     background-color: white;
     box-shadow: 0px 4px 0px 0px black;
-    padding: 5px 5px 3px 5px;
+    padding: 5px 8px 5px 8px;
     z-index: 999;
     transform: translateX(-50%);
 
@@ -2281,7 +2281,7 @@
     content: "";
     width: 5px;
     height: 85%;
-    top: 0;
+    top: 30px;
     background-color: black;
     left: 14%;
     z-index: -2;
@@ -2293,7 +2293,7 @@
       height: 0;
     }
     100%{
-      height: 65%;
+      height: 70%;
     }
   }
 
@@ -2302,7 +2302,7 @@
       height: 0;
     }
     100%{
-      height: 82%;
+      height: 77%;
     }
   }
 
