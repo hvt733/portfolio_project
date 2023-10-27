@@ -12,7 +12,7 @@ export class ContactComponent {
 
 
 window.onload=function(){
-
+  
   const item=document.getElementById("small_box")
   let btn_form = document.getElementById("btn")
   btn_form?.addEventListener('click',function(){
@@ -310,7 +310,7 @@ window.onscroll= function(){
     small_content2?.classList.add("small2_ani_TABLET")
     small_content3?.classList.add("small3_ani_TABLET")
     small_content4?.classList.add("small4_ani_TABLET")
-
-
   }
+
+
 }
