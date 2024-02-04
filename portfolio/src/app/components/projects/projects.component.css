@@ -66,7 +66,11 @@
     font-weight: 800;
     margin: 10px 0;
   }
-
+  .content_right p:first-child{
+    color: #C94440;
+    font-size: 20px;
+    font-family: istok;
+  }
   .big_content .content_right p:last-of-type{
     color: var(--black-color);
     font-size: 17px;
@@ -376,7 +380,7 @@
     width: 35px;
     position: absolute;
     right: 10%;
-    top: 95%;
+    top: 20%;
   }
 
   /* icon figma */
