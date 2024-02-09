@@ -12,7 +12,7 @@ export class ContactComponent {
 
 
 window.onload=function(){
-  
+
   const item=document.getElementById("small_box")
   let btn_form = document.getElementById("btn")
   btn_form?.addEventListener('click',function(){

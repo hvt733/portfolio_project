@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './sub-projects.component.html',
   styleUrls: ['./sub-projects.component.css']
 })
-export class SubProjectsComponent {
+export class SubProjectsComponent{
+  high_text=[
+    {
+      title:'hih_text'
+    }
+  ]
 
 }

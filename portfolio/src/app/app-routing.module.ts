@@ -35,6 +35,11 @@ const routes: Routes = [
         component: ContactComponent,
         title: 'Contact with us'
       },
+      {
+        path: 'sub-projects',
+        component: SubProjectsComponent,
+        title: 'Sub Projects'
+      }
     ]
   }
 ];
