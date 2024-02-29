@@ -88,7 +88,8 @@
     background-color: #E4E4E4;
     position: relative;
     box-shadow: 10px 10px black;
-
+    border-radius: 10px;
+    border: 4px solid #b9b9b9;
   }
 
   .projects .high_text h3{
@@ -330,6 +331,15 @@
     transform: translateX(-50%);
     position: absolute;
     left: 50%;
+  }
+
+
+
+
+  .details_projects img{
+    width: 37px;
+    height: 50px;
+
   }
 }
 
