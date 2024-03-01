@@ -79,6 +79,31 @@ body{
 	font-family: day_one;
   src: url(../font/Days_One/DaysOne-Regular.ttf);
 }
+
+@font-face {
+  font-family: poppin;
+  src: url(assets/Poppins/Poppins-Black.ttf);
+  src: url(assets/Poppins/Poppins-BlackItalic.ttf);
+  src: url(assets/Poppins/Poppins-Bold.ttf);
+  src: url(assets/Poppins/Poppins-BoldItalic.ttf);
+  src: url(assets/Poppins/Poppins-ExtraBold.ttf);
+  src: url(assets/Poppins/Poppins-ExtraBoldItalic.ttf);
+  src: url(assets/Poppins/Poppins-ExtraLight.ttf);
+  src: url(assets/Poppins/Poppins-ExtraLightItalic.ttf);
+  src: url(assets/Poppins/Poppins-Italic.ttf);
+  src: url(assets/Poppins/Poppins-LightItalic.ttf);
+  src: url(assets/Poppins/Poppins-Light.ttf);
+  src: url(assets/Poppins/Poppins-Medium.ttf);
+  src: url(assets/Poppins/Poppins-MediumItalic.ttf);
+  src: url(assets/Poppins/Poppins-Regular.ttf);
+  src: url(assets/Poppins/Poppins-SemiBold.ttf);
+  src: url(assets/Poppins/Poppins-SemiBoldItalic.ttf);
+  src: url(assets/Poppins/Poppins-Thin.ttf);
+  src: url(assets/Poppins/Poppins-ThinItalic.ttf);
+}
+
+
+
 /* .container{
   margin: 0 128px;
   padding: 0;
