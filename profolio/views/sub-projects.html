@@ -1,0 +1,400 @@
+<%- include('header.html')%>
+  <link rel="stylesheet" href="css/sub-projects.css">
+  <section class="sub_projects_PC">
+    <div class="sub_projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="high_text">
+              <h1 id="title">
+                <%= data.title%>
+              </h1>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="small_title">
+              <div class="col-3">
+                <div class="column_title">
+
+                  <span id="client">
+                    <p>Client</p>
+                    <%= data.client%>
+                  </span>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="column_title">
+                  <span id="timeline">
+                    <p>Timeline</p>
+                    <%= data.timeline%>
+                  </span>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="column_title">
+                  <span id="services">
+                    <p>Services</p>
+                    <%= data.services%>
+                  </span>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="column_title">
+                  <span id="website">
+                    <p>Website</p>
+                    <%= data.website%>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="big_content">
+              <img src="<%= data.image%>" alt="<%= data.title%>" srcset="" id="image">
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="details_projects">
+              <h2>Details Projects</h2>
+              <div class="line">
+                <div class="col-6 pl-0">
+                  <div class="content">
+                    <h3>CHALLENGE</h3>
+                    <p id="challenge">
+                      <%= data.challenge%>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-6 pr-0">
+                  <div class="content">
+                    <h3>GOAL</h3>
+                    <p id="content goal">
+                      <%= data.goal%>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="line">
+                <div class="col-6 pl-0">
+                  <div class="content">
+                    <h3>SOLUTION</h3>
+                    <p id="solution">
+                      <%= data.solution%>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-6 pr-0">
+                  <div class="content">
+                    <h3>TEST</h3>
+                    <p id="content test">
+                      <%= data.test%>
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="projects">
+              <div class="high_text">
+                <h3>Related projects</h3>
+              </div>
+
+              <div class="content2">
+                <div class="col-12">
+                  <div class="small_content">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="sm_box">
+                          <div class="img">
+                            <img src="images/project_img/star_lab.png" alt="">
+                          </div>
+                          <p>Website Template</p>
+                          <div class="divide">
+                            <h3>Starlab Group Projects</h3>
+                            <img src="images/project_img/figma_icon.png" alt="">
+                          </div>
+                          <a href="" onclick="subProjects(this)" data-name="Starlab Group Projects">Visit</a>
+                        </div>
+                      </div>
+
+                      <div class="col-6">
+                        <div class="sm_box">
+                          <div class="img">
+                            <img src="images/project_img/ez_games.png" alt="">
+                          </div>
+                          <p>Website Template</p>
+                          <div class="divide">
+                            <h3>EZ-Games</h3>
+                            <img src="images/project_img/figma_icon.png" alt="">
+                          </div>
+                          <button onclick="subProjects(this)" data-name="EZ-Games">Visit
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content2">
+                <div class="col-12">
+                  <div class="small_content">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="sm_box">
+                          <div class="img">
+                            <img src="images/project_img/sun_group_projects.png" alt="">
+                          </div>
+                          <p>Website Template</p>
+                          <div class="divide">
+                            <h3>Sun Group Projects</h3>
+                            <img src="images/project_img/figma_icon.png" alt="">
+                          </div>
+                          <button onclick="subProjects(this)" data-name="Sun Group Projects">Visit</button>
+                        </div>
+                      </div>
+
+                      <div class="col-6">
+                        <div class="sm_box">
+                          <div class="img">
+                            <img src="images/project_img/tv_cast.png" alt="">
+                            <p>Website Template</p>
+                            <div class="divide">
+                              <h3>TV Cast 3</h3>
+                              <img src="images/project_img/figma_icon.png" alt="">
+                            </div>
+                            <button onclick="subProjects(this)" data-name="TV Cast 3">Visit</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_footer">
+      <img src="images/sub-projects.png" alt="">
+      <h3>LET’S CREATE<br>
+      YOUR NEW PROJECTS</h3>
+  
+      <div class="centered-button">
+        <div class="scaling-button"><p>GET IN TOUCH</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sub_projects_MB">
+    <div class="sub_projects">
+
+      <div class="row">
+        <div class="col-12">
+          <div class="high_text">
+            <h1 id="title">
+              <%= data.title%>
+            </h1>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="small_title">
+            <div class="col-3">
+              <div class="column_title">
+
+                <span id="client">
+                  <p>Client</p>
+                  <%= data.client%>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="column_title">
+                <span id="timeline">
+                  <p>Timeline</p>
+                  <%= data.timeline%>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="column_title">
+                <span id="services">
+                  <p>Services</p>
+                  <%= data.services%>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="column_title">
+                <span id="website">
+                  <p>Website</p>
+                  <%= data.website%>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="big_content">
+            <img src="<%= data.image%>" alt="<%= data.title%>" srcset="" id="image">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="details_projects">
+            <h2>Details Projects</h2>
+            <div class="line">
+              <div class="col-6 pl-0">
+                <div class="content">
+                  <h3>CHALLENGE</h3>
+                  <p id="challenge">
+                    <%= data.challenge%>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-6 pr-0">
+                <div class="content">
+                  <h3>GOAL</h3>
+                  <p id="content goal">
+                    <%= data.goal%>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="line">
+              <div class="col-6 pl-0">
+                <div class="content">
+                  <h3>SOLUTION</h3>
+                  <p id="solution">
+                    <%= data.solution%>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-6 pr-0">
+                <div class="content">
+                  <h3>TEST</h3>
+                  <p id="content test">
+                    <%= data.test%>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="projects">
+            <div class="high_text">
+              <h3>Related projects</h3>
+            </div>
+
+            <div class="content2">
+              <div class="col-12">
+                <div class="small_content">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="sm_box">
+                        <div class="img">
+                          <img src="images/project_img/star_lab.png" alt="">
+                        </div>
+                        <p>Website Template</p>
+                        <div class="divide">
+                          <h3>Starlab Group Projects</h3>
+                          <img src="images/project_img/figma_icon.png" alt="">
+                        </div>
+                        <button onclick="subProjects(this)" data-name="Starlab Group Projects">Visit</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6">
+                      <div class="sm_box">
+                        <div class="img">
+                          <img src="images/project_img/ez_games.png" alt="">
+                        </div>
+                        <p>Website Template</p>
+                        <div class="divide">
+                          <h3>EZ-Games</h3>
+                          <img src="images/project_img/figma_icon.png" alt="">
+                        </div>
+                        <button onclick="subProjects(this)" data-name="EZ-Games">Visit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content2">
+              <div class="col-12">
+                <div class="small_content">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="sm_box">
+                        <div class="img">
+                          <img src="images/project_img/sun_group_projects.png" alt="">
+                        </div>
+                        <p>Website Template</p>
+                        <div class="divide">
+                          <h3>Sun Group Projects</h3>
+                          <img src="images/project_img/figma_icon.png" alt="">
+                        </div>
+                        <button onclick="subProjects(this)" data-name="Sun Group Projects">Visit</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6">
+                      <div class="sm_box">
+                        <div class="img">
+                          <img src="images/project_img/tv_cast.png" alt="">
+                          <p>Website Template</p>
+                          <div class="divide">
+                            <h3>TV Cast 3</h3>
+                            <img src="images/project_img/figma_icon.png" alt="">
+                          </div>
+                          <button onclick="subProjects(this)" data-name="TV Cast 3">Visit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="img_footer">
+      <img src="images/sub-projects.png" alt="">
+      <h3>LET’S CREATE<br>
+      YOUR NEW PROJECTS</h3>
+  
+      <div class="centered-button">
+        <div class="scaling-button"><p>GET IN TOUCH</p></div>
+      </div>
+    </div>
+  </section>
+  <script src="js/projects.js"></script>
+<%- include('footer.html')%>

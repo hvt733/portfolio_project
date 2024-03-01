@@ -1,0 +1,582 @@
+@media only screen and (min-width: 1024px) {
+  .sub_projects_MB {
+    display: none;
+  }
+
+  /* Sub Projects */
+  .sub_projects {
+    margin-top: 72px;
+  }
+
+  .sub_projects .bio_infor {
+    display: flex;
+
+  }
+
+  .sub_projects .high_text h1 {
+    font-family: istok;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: 800;
+  }
+
+  .sub_projects .small_title {
+    display: flex;
+    padding-bottom: 4%;
+  }
+
+  .sub_projects .small_title .column_title p {
+    color: var(--black-color);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 3%;
+  }
+
+  .sub_projects .small_title .column_title span {
+    color: var(--black-color);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 3%;
+    position: relative;
+  }
+
+  .sub_projects .small_title .column_title span::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: var(--black-color);
+    position: absolute;
+    top: -10%;
+  }
+
+  .big_content {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .big_content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .line {
+    display: flex;
+    margin-bottom: 27px;
+  }
+
+  .details_projects {
+    margin-bottom: 100px;
+  }
+
+  .details_projects h2 {
+    color: var(--black-color);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 27px;
+  }
+
+  .details_projects h3 {
+    font-weight: 500;
+    color: var(--black-color);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: istok;
+    margin-bottom: 16px;
+  }
+
+  .line .content p {
+    font-weight: 500;
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: istok;
+  }
+
+  .line .content {
+    padding: 32px;
+    background-color: #E4E4E4;
+    position: relative;
+    box-shadow: 10px 10px black;
+
+  }
+
+  .projects .high_text h3 {
+    font-family: istok;
+    font-size: 48px;
+    text-align: center;
+    margin: 5%;
+    font-weight: 800;
+  }
+
+  .content2 {
+    margin-bottom: 100px;
+  }
+
+  .content2 .sm_box {
+    padding: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px var(--black-color);
+    width: 100%;
+
+  }
+
+  /* ảnh của content nhỏ */
+  .content2 .sm_box .img {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .content2 .sm_box img {
+    width: 100%;
+    /* height: 100%; */
+    transition: transform 0.5s, filter 1.5s ease-in-out;
+  }
+
+  .sm_box:hover .img img {
+    transform: scale(103%);
+  }
+
+  .content2 .divide {
+    display: flex;
+
+  }
+
+  .sm_box .divide {
+    display: flex;
+    position: relative;
+  }
+
+  .sm_box .divide img {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+  }
+
+  /* icon figma */
+  .content2 .divide img {
+    width: 40px;
+    height: 40px;
+  }
+
+
+
+
+  .content2 .sm_box p {
+    color: var(--red-color);
+    font-size: 20px;
+    font-family: istok;
+    margin: 10px 0;
+  }
+
+  /* chỉnh chữ h3 to hơn */
+  .content2 .sm_box h3 {
+    color: var(--black-color);
+    font-size: 30px;
+    font-family: istok;
+    font-weight: 800;
+    margin: 10px 0;
+  }
+
+
+  /* chỉnh chữ p của thẻ a */
+  .content2 .small_content .sm_box a {
+    color: var(--black-color);
+    font-size: 20px;
+    font-family: istok;
+    position: relative;
+    text-decoration: none;
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+  .content2 .sm_box a::before {
+    position: absolute;
+    content: "";
+    background-color: var(--black-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+  .small_content .img{
+    max-height: 451px;
+  }
+
+  .small_content .img img{
+    height: 60%;
+  }
+
+  .content2 .small_content .sm_box a:hover {
+    color: var(--red-color);
+  }
+
+  .content2 .sm_box a:hover:before {
+    position: absolute;
+    content: "";
+    background-color: var(--red-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
+
+  .img_footer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .img_footer img{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .img_footer h3{
+    font-size: 30px;
+    font-family: istok;
+    font-weight: 800;
+
+    color: var(--white-color);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .centered-button {
+    font-family: istok;
+    font-weight: 800;
+    color: var(--black-color);
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF3731;
+  }
+
+  .scaling-button p{
+    margin-bottom: 0;
+  }
+  .scaling-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #FF3731;
+  }
+
+  .scaling-button:hover {
+    transform: scale(1.1);
+    transform-origin: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .sub_projects_PC {
+    display: none;
+  }
+
+  /* Sub Projects */
+  .sub_projects {
+    margin-top: 72px;
+  }
+
+  .sub_projects .bio_infor {
+    display: flex;
+
+  }
+
+  .sub_projects .high_text h1 {
+    font-family: istok;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: 800;
+  }
+
+  .sub_projects .small_title {
+    display: flex;
+    padding-bottom: 4%;
+  }
+
+  .sub_projects .small_title .column_title p {
+    color: var(--black-color);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 3%;
+  }
+
+  .sub_projects .small_title .column_title span {
+    color: var(--black-color);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 3%;
+    position: relative;
+  }
+
+  .sub_projects .small_title .column_title span::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: var(--black-color);
+    position: absolute;
+    top: -10%;
+  }
+
+  .big_content {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .big_content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .line {
+    display: flex;
+    margin-bottom: 27px;
+  }
+
+  .details_projects {
+    margin-bottom: 100px;
+  }
+
+  .details_projects h2 {
+    color: var(--black-color);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: istok;
+    margin-bottom: 27px;
+  }
+
+  .details_projects h3 {
+    font-weight: 500;
+    color: var(--black-color);
+    font-size: 45px;
+    font-weight: 500;
+    font-family: istok;
+    margin-bottom: 16px;
+  }
+
+  .line .content p {
+    font-weight: 500;
+    color: var(--black-color);
+    font-size: 30px;
+    font-family: istok;
+  }
+
+  .line .content {
+    padding: 32px;
+    background-color: #E4E4E4;
+    position: relative;
+    box-shadow: 10px 10px black;
+
+  }
+
+  .projects .high_text h3 {
+    font-family: istok;
+    font-size: 48px;
+    text-align: center;
+    margin: 5%;
+    font-weight: 800;
+  }
+
+  .content2 {
+    margin-bottom: 100px;
+  }
+
+  .content2 .sm_box {
+    padding: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px var(--black-color);
+    width: 100%;
+
+  }
+
+  /* ảnh của content nhỏ */
+  .content2 .sm_box .img {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .content2 .sm_box img {
+    width: 100%;
+    /* height: 100%; */
+    transition: transform 0.5s, filter 1.5s ease-in-out;
+  }
+
+  .sm_box:hover .img img {
+    transform: scale(103%);
+  }
+
+  .content2 .divide {
+    display: flex;
+
+  }
+
+  .sm_box .divide {
+    display: flex;
+    position: relative;
+  }
+
+  .sm_box .divide img {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+  }
+
+  /* icon figma */
+  .content2 .divide img {
+    width: 40px;
+    height: 40px;
+  }
+
+
+
+
+  .content2 .sm_box p {
+    color: var(--red-color);
+    font-size: 20px;
+    font-family: istok;
+    margin: 10px 0;
+  }
+
+  /* chỉnh chữ h3 to hơn */
+  .content2 .sm_box h3 {
+    color: var(--black-color);
+    font-size: 30px;
+    font-family: istok;
+    font-weight: 800;
+    margin: 10px 0;
+  }
+
+
+  /* chỉnh chữ p của thẻ a */
+  .content2 .small_content .sm_box a {
+    color: var(--black-color);
+    font-size: 20px;
+    font-family: istok;
+    position: relative;
+    text-decoration: none;
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+  .content2 .sm_box a::before {
+    position: absolute;
+    content: "";
+    background-color: var(--black-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
+
+
+  /* hover vào thẻ p của thẻ a */
+
+  .small_content .img{
+    max-height: 451px;
+  }
+
+  .small_content .img img{
+    height: 60%;
+  }
+  .content2 .small_content .sm_box a:hover {
+    color: var(--red-color);
+  }
+
+  .content2 .sm_box a:hover:before {
+    position: absolute;
+    content: "";
+    background-color: var(--red-color);
+    height: 1px;
+    width: 100%;
+    bottom: 5px;
+    transform: translateY(-50%);
+  }
+
+  .img_footer {
+    width: 100%;
+    position: relative;
+  }
+  
+  .img_footer img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .img_footer h3 {
+    font-size: 20px;
+    font-family: istok;
+    font-weight: 800;
+    color: var(--white-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.5;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .centered-button {
+    font-family: istok;
+    font-weight: 800;
+    color: var(--black-color);
+    position: absolute;
+    top: calc(50% + 20px); /* Adjust button position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF3731;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .scaling-button p {
+    margin-bottom: 0;
+  }
+  
+  .scaling-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+}
